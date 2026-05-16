@@ -61,7 +61,7 @@ I enjoy building projects that feel smooth, lightweight and practical while main
 
 <div align="center">
 
-<img src="https://skillicons.dev/icons?i=html,css,js,react,firebase,git,vscode" />
+<img src="https://skillicons.dev/icons?i=html,js,react,firebase,git,vscode" />
 
 </div>
 
