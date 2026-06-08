@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="skye - Teenage Frontend Developer, Telegram Bot Enthusiast, and Main Developer behind Pawjects Organisation.">
+    <meta property="og:title" content="skye | Minimalist Devfolio">
+    <meta property="og:description" content="A passionate young developer's digital home.">
+    <meta property="og:type" content="website">
+    <title>skye | developer</title>
+    
+    <!-- Fonts & Icons -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Premium Ambient Effects -->
+    <div class="noise"></div>
+    <div class="ambient-glow" id="ambient-glow"></div>
+    
+    <!-- Custom Cursor -->
+    <div class="cursor-dot"></div>
+    <div class="cursor-ring"></div>
+
+    <!-- Navigation -->
+    <nav class="navbar reveal-down">
+        <div class="nav-container">
+            <a href="#" class="logo">skye.</a>
+            <div class="nav-links">
+                <a href="#about" class="magnetic" data-strength="20">About</a>
+                <a href="#work" class="magnetic" data-strength="20">Work</a>
+                <a href="#contact" class="magnetic" data-strength="20">Contact</a>
+            </div>
+        </div>
+    </nav>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="hero" class="hero">
+            <div class="hero-content">
+                <div class="availability reveal-up" style="transition-delay: 0.1s;">
+                    <div class="status-dot"></div>
+                    <span class="mono-text">Available for open-source</span>
+                </div>
+                <h1 class="reveal-up" style="transition-delay: 0.2s;">
+                    Crafting <span class="text-glow">minimal</span> web<br>
+                    experiences & bots.
+                </h1>
+                <p class="hero-subtitle reveal-up" style="transition-delay: 0.3s;">
+                    I'm <span class="highlight">skye</span>, a 19-year-old developer from India.<br>
+                    Balancing Class 12 Physics & Maths with building elegant digital tools.
+                </p>
+                <div class="hero-actions reveal-up" style="transition-delay: 0.4s;">
+                    <a href="#work" class="btn btn-primary magnetic" data-strength="40">
+                        Explore Work <i class="fas fa-arrow-down"></i>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Bento Grid Section (About & Skills) -->
+        <section id="about" class="section">
+            <div class="bento-grid">
+                
+                <!-- Main About Card -->
+                <div class="bento-card span-2 reveal-up">
+                    <h2 class="bento-title"><i class="fas fa-terminal"></i> about_me</h2>
+                    <p class="bento-text">
+                        I specialize in Android system customization—specifically app modding—and building versatile Telegram bots. I'm deeply drawn to minimalist, modern UI/UX design, heavily inspired by Material You dynamic theming and sleek AMOLED aesthetics. My ultimate goal is to build clean, distraction-free software utilities.
+                    </p>
+                </div>
+
+                <!-- Pawjects Card -->
+                <div class="bento-card pawjects-card reveal-up" style="transition-delay: 0.1s;">
+                    <div class="pawjects-content">
+                        <i class="fas fa-users paw-icon"></i>
+                        <h3>Pawjects Org</h3>
+                        <p class="mono-text">Main Developer</p>
+                        <a href="https://pawjects-meow.netlify.app/" target="_blank" class="bento-link">Visit Hub <i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+
+                <!-- Languages Card -->
+                <div class="bento-card span-1 reveal-up" style="transition-delay: 0.2s;">
+                    <h2 class="bento-title">Languages</h2>
+                    <div class="tags-container">
+                        <span class="tag mono-text">Python</span>
+                        <span class="tag mono-text">Java</span>
+                        <span class="tag mono-text">Kotlin</span>
+                        <span class="tag mono-text">JavaScript</span>
+                        <span class="tag mono-text">HTML5</span>
+                        <span class="tag mono-text">CSS3</span>
+                    </div>
+                </div>
+
+                <!-- Interests Card -->
+                <div class="bento-card span-2 reveal-up" style="transition-delay: 0.3s;">
+                    <h2 class="bento-title">Interests & Vibe</h2>
+                    <div class="interest-icons">
+                        <div class="interest-item"><i class="fas fa-tv"></i><span>Anime</span></div>
+                        <div class="interest-item"><i class="fas fa-paw"></i><span>Cats</span></div>
+                        <div class="interest-item"><i class="fas fa-camera"></i><span>Photography</span></div>
+                        <div class="interest-item"><i class="fab fa-android"></i><span>Android Mods</span></div>
+                        <div class="interest-item"><i class="fas fa-pen-nib"></i><span>Minimalism</span></div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Selected Work Section -->
+        <section id="work" class="section">
+            <div class="section-header reveal-up">
+                <span class="mono-text accent-color">01 // Portfolio</span>
+                <h2 class="huge-title">Selected Work.</h2>
+            </div>
+            
+            <div class="projects-list">
+                <!-- PawGram -->
+                <div class="project-row reveal-up">
+                    <div class="project-info">
+                        <h3>PawGram</h3>
+                        <p>A modified Android application reimagining the social experience with sleek, iOS-inspired design elements.</p>
+                        <div class="project-tags">
+                            <span class="mono-text">Android Mod</span>
+                            <span class="mono-text">UI/UX</span>
+                        </div>
+                    </div>
+                    <div class="project-link-wrapper">
+                        <a href="https://pawgram-meow.vercel.app/" target="_blank" class="btn-circle magnetic" data-strength="50">
+                            <i class="fas fa-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- PawTube -->
+                <div class="project-row reveal-up">
+                    <div class="project-info">
+                        <h3>PawTube</h3>
+                        <p>A privacy-focused, distraction-free video player built from the ground up for a seamless viewing experience.</p>
+                        <div class="project-tags">
+                            <span class="mono-text">Video Platform</span>
+                            <span class="mono-text">Privacy</span>
+                        </div>
+                    </div>
+                    <div class="project-link-wrapper">
+                        <div class="status-badge mono-text">In Dev</div>
+                    </div>
+                </div>
+
+                <!-- Pawtify -->
+                <div class="project-row reveal-up">
+                    <div class="project-info">
+                        <h3>Pawtify</h3>
+                        <p>A complete browser-based static web music player app designed for fluid, uninterrupted listening.</p>
+                        <div class="project-tags">
+                            <span class="mono-text">Audio</span>
+                            <span class="mono-text">Vanilla JS</span>
+                        </div>
+                    </div>
+                    <div class="project-link-wrapper">
+                        <a href="https://github.com/pawjects/Pawtify" target="_blank" class="btn-circle magnetic" data-strength="50">
+                            <i class="fas fa-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- PawDownloader -->
+                <div class="project-row reveal-up">
+                    <div class="project-info">
+                        <h3>PawDownloader</h3>
+                        <p>A clean, efficient utility tool built to handle swift media downloads seamlessly without intrusive UI.</p>
+                        <div class="project-tags">
+                            <span class="mono-text">Utility</span>
+                            <span class="mono-text">API</span>
+                        </div>
+                    </div>
+                    <div class="project-link-wrapper">
+                        <div class="status-badge mono-text">In Dev</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Let's Talk CTA -->
+        <section id="contact" class="contact-section reveal-up">
+            <h2 class="massive-text">Let's Talk.</h2>
+            <p class="contact-desc">
+                The best and only way to reach me is through Telegram. Whether it's open-source, Material You, or Android customization, I'm always up for a chat.
+            </p>
+            <a href="https://t.me/PawDeveloper" target="_blank" class="btn btn-primary btn-large magnetic" data-strength="30">
+                <i class="fab fa-telegram-plane"></i> Message skye
+            </a>
+            
+            <div class="social-links">
+                <a href="https://github.com/iamsky837/iamsky837" target="_blank" class="magnetic" data-strength="20"><i class="fab fa-github"></i> GitHub</a>
+                <a href="https://pawjects.github.io/" target="_blank" class="magnetic" data-strength="20"><i class="fas fa-users"></i> Pawjects</a>
+                <a href="https://www.instagram.com/iamsky8307" target="_blank" class="magnetic" data-strength="20"><i class="fab fa-instagram"></i> Instagram</a>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="footer-content">
+            <p class="mono-text">© 2026 skye. All rights reserved.</p>
+            <p class="mono-text footer-cats">Powered by curiosity & cats <i class="fas fa-paw"></i></p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
