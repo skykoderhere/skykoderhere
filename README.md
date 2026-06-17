@@ -12,7 +12,7 @@
 ---
 
 ```js
-const SKY = {
+const skye = {
     role: "Developer",
 
     focus: [
