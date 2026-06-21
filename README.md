@@ -81,14 +81,6 @@ I enjoy building projects that feel smooth, lightweight and practical while main
 
 ---
 
-# 🛠 Workflow
-
-```txt
-Design → Develop → Optimize → Refine → Deploy
-```
-
----
-
 # 🌌 Currently Exploring
 
 - Advanced frontend systems
@@ -131,6 +123,6 @@ Design → Develop → Optimize → Refine → Deploy
 
 <div align="center">
 
-### Crafted with 🐾 by SKY
+### crafted with 🐾 by skye
 
 </div>
