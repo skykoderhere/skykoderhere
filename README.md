@@ -117,10 +117,6 @@ Design → Develop → Optimize → Refine → Deploy
 
 <br>
 
-<a href="https://linkedin.com/in/biswanathdas-skye">
-    <img src="https://img.shields.io/static/v1?label=&message=LinkedIn&color=121212&logo=linkedin&logoColor=0A66C2" alt="LinkedIn">
-</a>
-
 <a href="https://about.me/BiswanathDas">
     <img src="https://img.shields.io/static/v1?label=&message=About%20Me&color=121212&logo=readme&logoColor=white" alt="About Me">
 </a>
