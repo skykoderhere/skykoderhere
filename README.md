@@ -108,11 +108,14 @@ Design → Develop → Optimize → Refine → Deploy
 </a>
 
 <a href="https://t.me/PawDeveloper">
-    <img src="https://img.shields.io/static/v1?label=&message=Telegram &color=121212&logo=telegram&logoColor=white" alt="Telegram">
+    <img src="https://img.shields.io/static/v1?label=&message=Telegram&color=121212&logo=telegram&logoColor=white" alt="Telegram">
 </a>
 
 <a href="https://www.instagram.com/iamsky8307">
     <img src="https://img.shields.io/static/v1?label=&message=Instagram&color=121212&logo=instagram&logoColor=white" alt="Instagram">
+</a>
+<a href="https://linkedin.com/in/biswanathdas-skye">
+    <img src="https://img.shields.io/static/v1?label=&message=LinkedIn&color=121212&logo=linkedin&logoColor=white" alt="LinkedIn">
 </a>
 
 </div>
