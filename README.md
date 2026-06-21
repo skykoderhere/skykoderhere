@@ -114,8 +114,19 @@ Design → Develop → Optimize → Refine → Deploy
 <a href="https://www.instagram.com/iamsky8307">
     <img src="https://img.shields.io/static/v1?label=&message=Instagram&color=121212&logo=instagram&logoColor=white" alt="Instagram">
 </a>
+
+<br>
+
 <a href="https://linkedin.com/in/biswanathdas-skye">
     <img src="https://img.shields.io/static/v1?label=&message=LinkedIn&color=121212&logo=linkedin&logoColor=white" alt="LinkedIn">
+</a>
+
+<a href="https://about.me/BiswanathDas">
+    <img src="https://img.shields.io/static/v1?label=&message=About%20Me&color=121212&logo=readme&logoColor=white" alt="About Me">
+</a>
+
+<a href="https://skye.is-a.dev">
+    <img src="https://img.shields.io/static/v1?label=&message=Portfolio&color=121212&logo=googlechrome&logoColor=white" alt="Portfolio">
 </a>
 
 </div>
