@@ -95,15 +95,15 @@ I enjoy building projects that feel smooth, lightweight and practical while main
 
 <div align="center">
 
-<a href="https://github.com/iamsky837">
+<a href="https://github.com/skykoderhere">
     <img src="https://img.shields.io/static/v1?label=&message=GitHub&color=121212&logo=github&logoColor=white" alt="GitHub">
 </a>
 
-<a href="https://t.me/PawDeveloper">
+<a href="https://t.me/skykoderhere">
     <img src="https://img.shields.io/static/v1?label=&message=Telegram&color=121212&logo=telegram&logoColor=white" alt="Telegram">
 </a>
 
-<a href="https://www.instagram.com/iamsky8307">
+<a href="https://www.instagram.com/theskye837">
     <img src="https://img.shields.io/static/v1?label=&message=Instagram&color=121212&logo=instagram&logoColor=white" alt="Instagram">
 </a>
 
