@@ -1,0 +1,12 @@
+{
+  "welcome_enabled": true,
+  "welcome_title": "Welcome to PawGram",
+  "welcome_msg": "Meow! Welcome to the family. Enjoy your stay!",
+  
+  "update_enabled": false,
+  "update_title": "Update Available",
+  "update_msg": "A new version of PawGram is available. Please update to get the latest features.",
+  
+  "button_text": "Download Update",
+  "button_url": "https://github.com/pawjects/PawGram/releases/"
+}
