@@ -1,10 +1,10 @@
 [
   {
-    "id": "001",
-    "downloadUrl": "https://example.com/download/file1.zip"
+    "id": "build-v1",
+    "downloadUrl": "https://do-not-download.it/dummy/demo1.apk"
   },
   {
-    "id": "002",
-    "downloadUrl": "https://example.com/download/file2.zip"
+    "id": "build-v2-hotflix",
+    "downloadUrl": "https://donot.click.meow/dummy/demo2.apk"
   }
 ]
