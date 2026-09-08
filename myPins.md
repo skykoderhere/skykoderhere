@@ -9,21 +9,21 @@
 - [PawTube](URL) — PawTube is a Frontend YouTube no-cookie embed player webApp 
 
 ## ◇ APIS
-- [API](URL) — purpose
-- [API](URL) — purpose
+- [pawtube-api](URL) — info not updated 
+- [pawtify-api](URL) — info not updated 
 
 ## ◇ TOOLS
-- [Tool](URL) — purpose
-- [Tool](URL) — purpose
+- [vs code](URL) — idk
+- [intellij idea](URL) — cooking foods
 
 ## ◇ DOCS
-- [Documentation](URL)
-- [Reference](URL)
+- [pawjects](pawjects.github.io)
+- [is that not enough?](URL)
 
 ## ◇ DEPLOYMENT
 - [Vercel](URL)
 - [GitHub](URL)
-- [Domain](URL)
+- [localhost](URL)
 
 ---
 
