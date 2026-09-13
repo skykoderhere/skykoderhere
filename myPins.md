@@ -6,24 +6,24 @@
 
 ## ◇ PROJECTS
 - [PawGram](https://github.com/pawjects/PawGram) — PawGram is an Instagram Alpha Client with built-in iOS Emojis and customisable experience 
-- [PawTube](URL) — PawTube is a Frontend YouTube no-cookie embed player webApp 
+- [PawTify](https://pawtify-meow.vercel.app) — Pawtify is a pipedapi based fullstack music streaming webapp in Spotify styled ui
 
 ## ◇ APIS
-- [pawtube-api](URL) — info not updated 
-- [pawtify-api](URL) — info not updated 
+- [pawtify-api](https://github.com/pawjects/Pawtify) — source code available 
+- [pawtube-api](URL) — uploading soon
 
 ## ◇ TOOLS
 - [vs code](URL) — idk
-- [intellij idea](URL) — cooking foods
+- [intellij idea](URL) — usefull but useless
 
 ## ◇ DOCS
 - [pawjects](pawjects.github.io)
-- [is that not enough?](URL)
+- [is that not enough?](skye.is-a.dev)
 
 ## ◇ DEPLOYMENT
-- [Vercel](URL)
-- [GitHub](URL)
-- [localhost](URL)
+- [Vercel](127.0.0.1)
+- [GitHub](github.com/pawjects)
+- [localhost](#)
 
 ---
 
