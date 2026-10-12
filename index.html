@@ -4,23 +4,26 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>skye | developer</title>
-    <meta name="description" content="skye - 19yo developer leading Pawjects. Android mods, Telegram bots, and clean AMOLED web apps.">
-    <meta name="keywords" content="skye, skykoderhere, Pawjects, Android modding, Telegram bots, frontend developer, Material You, AMOLED">
+    <meta name="description" content="skye - 19yo developer leading @pawjects. Android mods, Telegram bots, and clean AMOLED web apps.">
+    <meta name="keywords" content="skye, skykoderhere, pawjects, Android modding, Telegram bots, frontend developer, AMOLED">
     <meta name="author" content="skye">
     <meta name="theme-color" content="#000000">
 
     <!-- Canonical & OpenGraph -->
     <link rel="canonical" href="https://skye.is-a.dev">
     <meta property="og:title" content="skye | developer">
-    <meta property="og:description" content="19yo dev leading Pawjects. Android mods, Telegram bots, and minimal AMOLED web experiences.">
+    <meta property="og:description" content="19yo dev leading @pawjects. Android mods, Telegram bots, and minimal AMOLED web experiences.">
     <meta property="og:url" content="https://skye.is-a.dev">
     <meta property="og:type" content="website">
+    <meta property="og:image" content="https://github.com/skykoderhere.png">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="skye | developer">
-    <meta name="twitter:description" content="19yo dev leading Pawjects. Android mods, Telegram bots, and minimal AMOLED web experiences.">
+    <meta name="twitter:description" content="19yo dev leading @pawjects. Android mods, Telegram bots, and minimal AMOLED web experiences.">
+    <meta name="twitter:image" content="https://github.com/skykoderhere.png">
 
-    <!-- Favicon -->
-    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🐾</text></svg>">
+    <!-- Favicon: GitHub Profile Picture -->
+    <link rel="icon" type="image/png" href="https://github.com/skykoderhere.png">
+    <link rel="apple-touch-icon" href="https://github.com/skykoderhere.png">
 
     <!-- Structured Data (JSON-LD) -->
     <script type="application/ld+json">
@@ -30,6 +33,7 @@
       "name": "skye",
       "alternateName": "skykoderhere",
       "url": "https://skye.is-a.dev",
+      "image": "https://github.com/skykoderhere.png",
       "jobTitle": "Lead Developer",
       "worksFor": {
         "@type": "Organization",
@@ -37,7 +41,8 @@
       },
       "sameAs": [
         "https://github.com/skykoderhere",
-        "https://github.com/pawjects",
+        "https://x.com/skykoderhere",
+        "https://linkedin.com/in/skykoderhere",
         "https://t.me/skykoderhere",
         "https://www.instagram.com/skykoderhere"
       ]
@@ -47,38 +52,37 @@
     <!-- Fonts & Icons -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 
     <style>
         /* ==========================================================================
-           skye | New-Gen Devfolio Theme
-           Pure AMOLED Black, Material You accents & Fluid Typography
+           skye | Minimal Devfolio
+           Pure AMOLED Black, Zero-Clutter Layout, Seamless Backgrounds
            ========================================================================== */
         :root {
             --bg-main: #000000;
-            --bg-surface: #0a0a0a;
-            --bg-surface-elevated: #121212;
-            --bg-surface-hover: #171717;
+            --bg-subtle: #08080a;
+            --bg-panel: #0d0d10;
+            --bg-panel-hover: #121217;
 
-            --border-color: #1a1a1a;
-            --border-hover: #2e2e2e;
-            --border-glow: rgba(0, 183, 255, 0.4);
+            --border-color: #1a1a20;
+            --border-subtle: #141418;
+            --border-hover: #2b2b35;
 
-            --text-main: #ffffff;
-            --text-muted: #888888;
-            --text-subtle: #505050;
+            --text-main: #f5f5f7;
+            --text-muted: #8a8a95;
+            --text-subtle: #52525c;
             --text-dark: #000000;
 
-            --accent-primary: #00B7FF;
+            --accent-primary: #00b7ff;
             --accent-hover: #38c8ff;
-            --accent-glow: rgba(0, 183, 255, 0.14);
-            --accent-badge-bg: rgba(0, 183, 255, 0.08);
+            --accent-glow: rgba(0, 183, 255, 0.12);
 
             --font-sans: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
             --font-mono: 'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
 
-            --ease-out-expo: cubic-bezier(0.19, 1, 0.22, 1);
+            --ease-out: cubic-bezier(0.16, 1, 0.3, 1);
         }
 
         *, *::before, *::after {
@@ -136,22 +140,22 @@
             height: 100vh;
             pointer-events: none;
             z-index: 90;
-            opacity: 0.035;
+            opacity: 0.025;
             background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noiseFilter'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.65' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noiseFilter)'/%3E%3C/svg%3E");
         }
 
         .ambient-glow {
             position: fixed;
-            width: 580px;
-            height: 580px;
-            background: radial-gradient(circle, var(--accent-glow) 0%, transparent 65%);
+            width: 480px;
+            height: 480px;
+            background: radial-gradient(circle, var(--accent-glow) 0%, transparent 68%);
             border-radius: 50%;
             pointer-events: none;
             z-index: 1;
             transform: translate(-50%, -50%);
-            transition: width 0.35s var(--ease-out-expo), height 0.35s var(--ease-out-expo), opacity 0.3s;
             filter: blur(55px);
-            opacity: 0.8;
+            opacity: 0.65;
+            transition: opacity 0.3s;
         }
 
         /* Custom Cursor */
@@ -182,8 +186,8 @@
             pointer-events: none;
             z-index: 9999;
             opacity: 0;
-            transition: width 0.25s var(--ease-out-expo), 
-                        height 0.25s var(--ease-out-expo), 
+            transition: width 0.25s var(--ease-out), 
+                        height 0.25s var(--ease-out), 
                         background-color 0.25s, 
                         border-color 0.25s,
                         opacity 0.2s;
@@ -196,7 +200,7 @@
         /* Typography & Utilities */
         .mono-text {
             font-family: var(--font-mono);
-            font-size: 0.82rem;
+            font-size: 0.78rem;
             letter-spacing: -0.01em;
             text-transform: uppercase;
             color: var(--text-muted);
@@ -206,32 +210,9 @@
             color: var(--accent-primary);
         }
 
-        .highlight {
-            color: var(--text-main);
-            font-weight: 600;
-        }
-
         .text-glow {
             color: var(--text-main);
-            text-shadow: 0 0 25px rgba(255, 255, 255, 0.35);
-        }
-
-        .section {
-            padding: 120px 5vw;
-            max-width: 1400px;
-            margin: 0 auto;
-        }
-
-        .section-tag {
-            margin-bottom: 3rem;
-        }
-
-        .section-title {
-            font-size: clamp(2.4rem, 5vw, 4rem);
-            font-weight: 500;
-            letter-spacing: -0.03em;
-            margin-top: 0.5rem;
-            line-height: 1.1;
+            text-shadow: 0 0 24px rgba(255, 255, 255, 0.25);
         }
 
         /* Navbar */
@@ -240,11 +221,11 @@
             top: 0;
             left: 0;
             width: 100%;
-            padding: 1.5rem 5vw;
+            padding: clamp(0.75rem, 1.8vw, 1.15rem) clamp(1.2rem, 5vw, 3.5rem);
             z-index: 100;
             backdrop-filter: blur(16px);
             -webkit-backdrop-filter: blur(16px);
-            background: rgba(0, 0, 0, 0.5);
+            background: rgba(0, 0, 0, 0.75);
             border-bottom: 1px solid rgba(255, 255, 255, 0.05);
             transition: padding 0.3s ease;
         }
@@ -253,16 +234,38 @@
             display: flex;
             justify-content: space-between;
             align-items: center;
-            max-width: 1400px;
+            max-width: 1100px;
             margin: 0 auto;
         }
 
         .logo {
-            font-size: 1.35rem;
+            font-size: 1.12rem;
             font-weight: 700;
-            letter-spacing: -0.04em;
+            letter-spacing: -0.03em;
             display: flex;
             align-items: center;
+            gap: 0.65rem;
+            transition: transform 0.2s var(--ease-out);
+        }
+
+        .logo:active {
+            transform: scale(0.96);
+        }
+
+        .nav-avatar {
+            width: 32px;
+            height: 32px;
+            border-radius: 50%;
+            border: 1.5px solid var(--accent-primary);
+            box-shadow: 0 0 12px rgba(0, 183, 255, 0.35);
+            object-fit: cover;
+            display: block;
+            transition: transform 0.25s ease, box-shadow 0.25s ease;
+        }
+
+        .logo:hover .nav-avatar {
+            transform: scale(1.08) rotate(4deg);
+            box-shadow: 0 0 18px rgba(0, 183, 255, 0.6);
         }
 
         .accent-dot {
@@ -271,16 +274,16 @@
 
         .nav-links {
             display: flex;
-            gap: 2.25rem;
+            gap: 1.8rem;
             align-items: center;
         }
 
         .nav-links .nav-item {
             font-family: var(--font-mono);
-            font-size: 0.85rem;
+            font-size: 0.8rem;
             text-transform: lowercase;
             position: relative;
-            padding: 0.3rem 0;
+            padding: 0.25rem 0;
             color: var(--text-muted);
             transition: color 0.2s ease;
         }
@@ -298,7 +301,7 @@
             width: 0;
             height: 1.5px;
             background-color: var(--accent-primary);
-            transition: width 0.3s var(--ease-out-expo);
+            transition: width 0.25s var(--ease-out);
         }
 
         .nav-links .nav-item:hover::after {
@@ -315,6 +318,12 @@
             padding: 8px;
             cursor: pointer;
             z-index: 101;
+            border-radius: 8px;
+            transition: transform 0.15s ease;
+        }
+
+        .menu-toggle:active {
+            transform: scale(0.9);
         }
 
         .hamburger-bar {
@@ -322,7 +331,7 @@
             height: 2px;
             background-color: var(--text-main);
             border-radius: 2px;
-            transition: transform 0.3s var(--ease-out-expo), opacity 0.3s;
+            transition: transform 0.25s var(--ease-out), opacity 0.25s;
         }
 
         .menu-toggle.open .hamburger-bar:nth-child(1) {
@@ -336,9 +345,9 @@
         .mobile-menu {
             display: none;
             flex-direction: column;
-            gap: 1.5rem;
-            padding: 2rem 5vw 2.5rem;
-            background: rgba(0, 0, 0, 0.96);
+            gap: 1rem;
+            padding: 1.2rem clamp(1.2rem, 5vw, 3.5rem) 1.6rem;
+            background: rgba(0, 0, 0, 0.98);
             border-top: 1px solid var(--border-color);
         }
 
@@ -348,43 +357,47 @@
 
         .mobile-nav-link {
             font-family: var(--font-mono);
-            font-size: 1.05rem;
+            font-size: 0.95rem;
             text-transform: lowercase;
             color: var(--text-muted);
-            padding: 0.4rem 0;
+            padding: 0.45rem 0;
             border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+            transition: color 0.2s;
         }
 
-        .mobile-nav-link:hover {
+        .mobile-nav-link:hover,
+        .mobile-nav-link:active {
             color: var(--text-main);
         }
 
-        /* Hero */
+        /* ==========================================================================
+           Hero Section
+           ========================================================================== */
         .hero {
-            min-height: 100vh;
+            min-height: 82vh;
             display: flex;
             align-items: center;
-            padding: 0 5vw;
+            padding: clamp(90px, 14vh, 130px) clamp(1.2rem, 5vw, 3.5rem) 40px;
             position: relative;
             z-index: 10;
-            max-width: 1400px;
+            max-width: 1100px;
             margin: 0 auto;
         }
 
         .hero-content {
-            max-width: 900px;
-            padding-top: 4.5rem;
+            max-width: 820px;
         }
 
         .availability {
             display: inline-flex;
             align-items: center;
             gap: 0.6rem;
-            padding: 0.45rem 1.1rem;
+            padding: 0.35rem 0.85rem;
             border: 1px solid var(--border-color);
             border-radius: 100px;
-            margin-bottom: 2rem;
-            background: var(--bg-surface);
+            margin-bottom: 1.4rem;
+            background: rgba(255, 255, 255, 0.02);
+            backdrop-filter: blur(8px);
         }
 
         .status-dot {
@@ -402,38 +415,46 @@
         }
 
         .hero-title {
-            font-size: clamp(2.8rem, 6.5vw, 5.5rem);
+            font-size: clamp(2.3rem, 5.2vw, 4.2rem);
             font-weight: 500;
-            line-height: 1.1;
+            line-height: 1.12;
             letter-spacing: -0.04em;
-            margin-bottom: 1.5rem;
+            margin-bottom: 1.15rem;
         }
 
         .hero-subtitle {
-            font-size: clamp(1.05rem, 2vw, 1.3rem);
+            font-size: clamp(0.95rem, 1.5vw, 1.12rem);
             color: var(--text-muted);
             line-height: 1.7;
-            margin-bottom: 2.8rem;
-            max-width: 650px;
+            margin-bottom: 2rem;
+            max-width: 620px;
         }
 
         .hero-actions {
             display: flex;
-            gap: 1.25rem;
+            gap: 0.95rem;
             flex-wrap: wrap;
         }
 
+        /* Buttons & Interactions */
         .btn {
             display: inline-flex;
             align-items: center;
-            gap: 0.75rem;
-            padding: 0.95rem 2rem;
+            justify-content: center;
+            gap: 0.65rem;
+            padding: 0.8rem 1.65rem;
             border-radius: 100px;
             font-weight: 500;
-            font-size: 0.95rem;
-            transition: transform 0.25s var(--ease-out-expo), background-color 0.25s, border-color 0.25s;
+            font-size: 0.9rem;
+            transition: transform 0.2s var(--ease-out), background-color 0.2s, border-color 0.2s, box-shadow 0.2s;
             text-decoration: none;
             cursor: pointer;
+            min-height: 42px;
+            user-select: none;
+        }
+
+        .btn:active {
+            transform: scale(0.96) !important;
         }
 
         .btn-primary {
@@ -442,444 +463,651 @@
         }
 
         .btn-primary:hover {
-            background-color: #e6e6e6;
+            background-color: #ffffff;
             transform: translateY(-2px);
+            box-shadow: 0 4px 20px rgba(255, 255, 255, 0.2);
         }
 
         .btn-secondary {
-            background-color: var(--bg-surface);
+            background-color: rgba(255, 255, 255, 0.03);
             color: var(--text-main);
             border: 1px solid var(--border-color);
         }
 
         .btn-secondary:hover {
-            background-color: var(--bg-surface-elevated);
+            background-color: rgba(255, 255, 255, 0.07);
             border-color: var(--border-hover);
             transform: translateY(-2px);
         }
 
         .btn-large {
-            padding: 1.15rem 2.5rem;
-            font-size: 1.05rem;
+            padding: 0.95rem 2.1rem;
+            font-size: 0.95rem;
         }
 
-        /* Bento Grid */
-        .bento-grid {
-            display: grid;
-            grid-template-columns: repeat(3, 1fr);
-            gap: 1.5rem;
-        }
-
-        .bento-card {
-            background-color: var(--bg-surface);
-            border: 1px solid var(--border-color);
-            border-radius: 24px;
-            padding: 2.4rem;
-            transition: border-color 0.35s ease, background-color 0.35s ease, transform 0.35s var(--ease-out-expo);
+        /* ==========================================================================
+           Clean Flow Layout (Matched Background, No Boxed Cards)
+           Exactly 4 Sections:
+           1. About Me (#about)
+           2. Pawjects Ecosystem (#ecosystem)
+           3. My Projects (#projects)
+           4. Contact Me (#contact)
+           ========================================================================== */
+        .content-container {
+            max-width: 1100px;
+            margin: 0 auto;
+            padding: 0 clamp(1.2rem, 5vw, 3.5rem) 6rem;
             position: relative;
-            overflow: hidden;
         }
 
-        .bento-card:hover {
-            border-color: var(--border-hover);
-            background-color: var(--bg-surface-hover);
-            transform: translateY(-3px);
+        .site-section {
+            position: relative;
+            background: transparent;
+            padding: clamp(3rem, 6vh, 4.5rem) 0;
+            border-top: 1px solid var(--border-subtle);
         }
 
-        .span-2 {
-            grid-column: span 2;
+        .section-header {
+            margin-bottom: clamp(1.5rem, 3vw, 2.2rem);
         }
 
-        .span-1 {
-            grid-column: span 1;
-        }
-
-        .bento-title {
-            font-size: 1.2rem;
-            font-weight: 500;
-            margin-bottom: 1.25rem;
-            display: flex;
-            align-items: center;
-            gap: 0.6rem;
-        }
-
-        .bento-title i {
-            color: var(--accent-primary);
-            font-size: 0.95rem;
-        }
-
-        .bento-text {
-            color: var(--text-muted);
-            line-height: 1.75;
-            font-size: 1.02rem;
-        }
-
-        .bento-quote {
-            margin-top: 1.5rem;
-            padding-left: 1.1rem;
-            border-left: 2px solid var(--accent-primary);
-            font-style: italic;
-            color: var(--text-main);
-            font-size: 1.05rem;
-        }
-
-        /* Pawjects Org Card */
-        .pawjects-card {
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            text-align: center;
-            background: linear-gradient(150deg, var(--bg-surface) 60%, rgba(0, 183, 255, 0.08) 100%);
-        }
-
-        .paw-icon-wrapper {
-            width: 60px;
-            height: 60px;
-            margin: 0 auto 1.2rem;
-            border-radius: 50%;
-            background: rgba(0, 183, 255, 0.1);
-            display: flex;
-            align-items: center;
-            justify-content: center;
-        }
-
-        .paw-icon {
-            font-size: 1.75rem;
-            color: var(--accent-primary);
-        }
-
-        .pawjects-content h3 {
-            font-size: 1.4rem;
-            font-weight: 600;
-            margin-bottom: 0.3rem;
-        }
-
-        .pawjects-desc {
-            color: var(--text-muted);
-            font-size: 0.9rem;
-            margin: 0.75rem 0 1.25rem;
-            line-height: 1.5;
-        }
-
-        .bento-link {
-            display: inline-flex;
-            align-items: center;
-            gap: 0.5rem;
+        .section-number {
             font-family: var(--font-mono);
-            font-size: 0.85rem;
+            font-size: 0.76rem;
+            text-transform: uppercase;
+            letter-spacing: 0.04em;
             color: var(--accent-primary);
-            border-bottom: 1px solid rgba(0, 183, 255, 0.3);
-            padding-bottom: 2px;
-            transition: border-color 0.25s, color 0.25s;
+            display: inline-block;
+            margin-bottom: 0.35rem;
         }
 
-        .bento-link:hover {
-            border-color: var(--accent-primary);
-            color: #ffffff;
-        }
-
-        /* Stack Tags */
-        .tags-container {
-            display: flex;
-            flex-wrap: wrap;
-            gap: 0.65rem;
-        }
-
-        .tag {
-            display: inline-flex;
-            align-items: center;
-            gap: 0.4rem;
-            padding: 0.45rem 0.85rem;
-            border: 1px solid var(--border-color);
-            border-radius: 100px;
-            background: rgba(255, 255, 255, 0.02);
-            transition: border-color 0.25s, color 0.25s;
-        }
-
-        .tag i {
-            color: var(--accent-primary);
-        }
-
-        .bento-card:hover .tag {
-            border-color: rgba(255, 255, 255, 0.15);
+        .section-heading {
+            font-size: clamp(1.9rem, 3.8vw, 2.8rem);
+            font-weight: 500;
+            letter-spacing: -0.03em;
+            line-height: 1.15;
             color: var(--text-main);
         }
 
-        /* Engineering Focus Grid */
-        .focus-grid {
-            display: grid;
-            grid-template-columns: repeat(2, 1fr);
-            gap: 1.25rem;
+        /* Section 01: About Me */
+        .bio-lead {
+            font-size: clamp(1rem, 1.6vw, 1.15rem);
+            color: var(--text-main);
+            line-height: 1.75;
+            margin-bottom: 1.1rem;
+            max-width: 820px;
         }
 
-        .focus-item {
-            padding: 1.2rem;
-            background: rgba(255, 255, 255, 0.02);
-            border: 1px solid rgba(255, 255, 255, 0.04);
-            border-radius: 16px;
-            transition: border-color 0.25s, background-color 0.25s, transform 0.25s var(--ease-out-expo);
-        }
-
-        .focus-item:hover {
-            border-color: rgba(0, 183, 255, 0.3);
-            background: rgba(0, 183, 255, 0.03);
-            transform: translateY(-2px);
-        }
-
-        .focus-header {
-            display: flex;
-            align-items: center;
-            gap: 0.6rem;
-            margin-bottom: 0.4rem;
-        }
-
-        .focus-header i {
+        .bio-lead strong {
             color: var(--accent-primary);
-            font-size: 1rem;
-        }
-
-        .focus-header h4 {
-            font-size: 0.95rem;
             font-weight: 600;
         }
 
-        .focus-item p {
+        .bio-quote {
+            font-family: var(--font-mono);
+            font-size: 0.84rem;
             color: var(--text-muted);
-            font-size: 0.85rem;
-            line-height: 1.5;
+            font-style: italic;
+            border-left: 2px solid var(--accent-primary);
+            padding-left: 0.85rem;
+            margin-bottom: 2rem;
         }
 
-        /* Projects Section */
-        .projects-list {
-            display: flex;
-            flex-direction: column;
+        /* Compact Slim Capabilities & Toolkit Bar */
+        .compact-toolkit-bar {
+            background: rgba(255, 255, 255, 0.012);
+            border: 1px solid var(--border-color);
+            border-radius: 14px;
+            padding: clamp(0.85rem, 1.8vw, 1.25rem);
+            margin-top: 1.5rem;
         }
 
-        .project-row {
+        .toolkit-header {
             display: flex;
             justify-content: space-between;
             align-items: center;
-            padding: 2.75rem 0;
-            border-bottom: 1px solid var(--border-color);
-            transition: padding 0.35s var(--ease-out-expo), background-color 0.3s;
+            flex-wrap: wrap;
+            gap: 0.75rem;
+            margin-bottom: 0.95rem;
+            padding-bottom: 0.75rem;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.04);
         }
 
-        .project-row:first-child {
-            border-top: 1px solid var(--border-color);
-        }
-
-        .project-row:hover {
-            padding: 3.1rem 1.5rem;
-            background: rgba(255, 255, 255, 0.012);
-            border-radius: 16px;
-        }
-
-        .project-info {
-            max-width: 650px;
-        }
-
-        .project-header-meta {
+        .toolkit-title {
+            font-family: var(--font-mono);
+            font-size: 0.76rem;
+            text-transform: uppercase;
+            letter-spacing: 0.04em;
+            color: var(--text-muted);
             display: flex;
             align-items: center;
-            gap: 1rem;
-            margin-bottom: 0.75rem;
+            gap: 0.5rem;
         }
 
-        .project-info h3 {
-            font-size: 1.85rem;
+        .toolkit-title i {
+            color: var(--accent-primary);
+        }
+
+        .tab-switcher {
+            display: inline-flex;
+            background: rgba(0, 0, 0, 0.7);
+            border: 1px solid var(--border-color);
+            border-radius: 100px;
+            padding: 0.15rem;
+            gap: 0.15rem;
+        }
+
+        .tab-btn {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.4rem;
+            padding: 0.32rem 0.8rem;
+            border-radius: 100px;
+            font-family: var(--font-mono);
+            font-size: 0.74rem;
+            color: var(--text-muted);
+            transition: all 0.2s var(--ease-out);
+            cursor: pointer;
+            background: transparent;
+            border: none;
+            min-height: 28px;
+            user-select: none;
+        }
+
+        .tab-btn:hover {
+            color: var(--text-main);
+        }
+
+        .tab-btn:active {
+            transform: scale(0.96);
+        }
+
+        .tab-btn.active {
+            background: rgba(255, 255, 255, 0.1);
+            color: var(--text-main);
+            box-shadow: 0 1px 4px rgba(0, 0, 0, 0.4);
+        }
+
+        .tab-panel {
+            display: none;
+        }
+
+        .tab-panel.active {
+            display: block;
+            animation: tabFadeIn 0.2s var(--ease-out);
+        }
+
+        @keyframes tabFadeIn {
+            from { opacity: 0; transform: translateY(2px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        /* Tab 1: Tech Stack Badges & Tooltips */
+        .compact-stack-row {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.55rem;
+            padding: 0.2rem 0;
+        }
+
+        .tag-compact {
+            position: relative;
+            display: inline-flex;
+            align-items: center;
+            gap: 0.45rem;
+            padding: 0.35rem 0.75rem;
+            border: 1px solid var(--border-color);
+            border-radius: 100px;
+            background: rgba(255, 255, 255, 0.02);
+            font-family: var(--font-mono);
+            font-size: 0.74rem;
+            color: var(--text-muted);
+            cursor: pointer;
+            user-select: none;
+            transition: transform 0.25s cubic-bezier(0.16, 1, 0.3, 1), 
+                        border-color 0.25s ease, 
+                        background-color 0.25s ease, 
+                        color 0.25s ease, 
+                        box-shadow 0.25s ease;
+        }
+
+        .tag-compact i {
+            color: var(--accent-primary);
+            font-size: 0.82rem;
+            transition: transform 0.25s cubic-bezier(0.16, 1, 0.3, 1), color 0.25s ease;
+        }
+
+        .tag-compact:hover {
+            border-color: rgba(0, 183, 255, 0.5);
+            color: var(--text-main);
+            background: rgba(0, 183, 255, 0.08);
+            transform: translateY(-2.5px);
+            box-shadow: 0 4px 16px rgba(0, 183, 255, 0.15);
+        }
+
+        .tag-compact:hover i {
+            transform: scale(1.18);
+            color: #ffffff;
+        }
+
+        .tag-compact:active {
+            transform: translateY(-1px) scale(0.96);
+        }
+
+        /* Floating Tooltip */
+        .tag-compact .tag-tooltip {
+            position: absolute;
+            bottom: calc(100% + 8px);
+            left: 50%;
+            transform: translateX(-50%) translateY(4px);
+            background: rgba(12, 12, 16, 0.95);
+            backdrop-filter: blur(12px);
+            -webkit-backdrop-filter: blur(12px);
+            border: 1px solid rgba(0, 183, 255, 0.35);
+            color: #ffffff;
+            padding: 0.35rem 0.65rem;
+            border-radius: 8px;
+            font-family: var(--font-mono);
+            font-size: 0.68rem;
+            font-weight: 500;
+            white-space: nowrap;
+            letter-spacing: 0.02em;
+            box-shadow: 0 8px 24px rgba(0, 0, 0, 0.6), 0 0 12px rgba(0, 183, 255, 0.18);
+            pointer-events: none;
+            opacity: 0;
+            visibility: hidden;
+            transition: opacity 0.2s cubic-bezier(0.16, 1, 0.3, 1), 
+                        transform 0.2s cubic-bezier(0.16, 1, 0.3, 1), 
+                        visibility 0.2s;
+            z-index: 50;
+        }
+
+        .tag-compact .tag-tooltip::after {
+            content: '';
+            position: absolute;
+            top: 100%;
+            left: 50%;
+            transform: translateX(-50%);
+            border-width: 5px 5px 0 5px;
+            border-style: solid;
+            border-color: rgba(0, 183, 255, 0.35) transparent transparent transparent;
+        }
+
+        .tag-compact:hover .tag-tooltip,
+        .tag-compact:focus-visible .tag-tooltip {
+            opacity: 1;
+            visibility: visible;
+            transform: translateX(-50%) translateY(0);
+        }
+
+        /* Tab 2 & 3: Minimal Grid Items */
+        .compact-grid-cards {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(210px, 1fr));
+            gap: 0.75rem;
+        }
+
+        .compact-card-item {
+            background: rgba(255, 255, 255, 0.015);
+            border: 1px solid rgba(255, 255, 255, 0.04);
+            border-radius: 10px;
+            padding: 0.75rem 0.9rem;
+            transition: border-color 0.2s ease, transform 0.2s var(--ease-out);
+        }
+
+        .compact-card-item:hover {
+            border-color: rgba(0, 183, 255, 0.35);
+            transform: translateY(-2px);
+        }
+
+        .compact-card-item h4 {
+            font-size: 0.84rem;
+            font-weight: 600;
+            margin-bottom: 0.25rem;
+            display: flex;
+            align-items: center;
+            gap: 0.45rem;
+        }
+
+        .compact-card-item h4 i {
+            color: var(--accent-primary);
+            font-size: 0.8rem;
+        }
+
+        .compact-card-item p {
+            color: var(--text-muted);
+            font-size: 0.75rem;
+            line-height: 1.45;
+        }
+
+        /* ==========================================================================
+           Section 02: Pawjects Ecosystem
+           ========================================================================== */
+        .ecosystem-container {
+            background: rgba(255, 255, 255, 0.012);
+            border: 1px solid var(--border-color);
+            border-radius: 16px;
+            padding: clamp(1.5rem, 3vw, 2.2rem);
+            position: relative;
+            transition: border-color 0.25s ease;
+        }
+
+        .ecosystem-container:hover {
+            border-color: rgba(0, 183, 255, 0.35);
+        }
+
+        .ecosystem-meta-row {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 1.25rem;
+            flex-wrap: wrap;
+            gap: 0.75rem;
+        }
+
+        .ecosystem-badge {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.45rem;
+            padding: 0.3rem 0.75rem;
+            border-radius: 100px;
+            background: rgba(0, 183, 255, 0.1);
+            border: 1px solid rgba(0, 183, 255, 0.25);
+            font-family: var(--font-mono);
+            font-size: 0.7rem;
+            color: var(--accent-primary);
+            text-transform: uppercase;
+            letter-spacing: 0.03em;
+        }
+
+        .ecosystem-badge .live-dot {
+            width: 6px;
+            height: 6px;
+            border-radius: 50%;
+            background-color: var(--accent-primary);
+            box-shadow: 0 0 6px var(--accent-primary);
+            animation: statusPulse 2s infinite ease-in-out;
+        }
+
+        .ecosystem-icon {
+            font-size: 1.5rem;
+            color: var(--accent-primary);
+        }
+
+        .ecosystem-name {
+            font-size: clamp(1.4rem, 2.5vw, 1.9rem);
+            font-weight: 600;
+            letter-spacing: -0.02em;
+            margin-bottom: 0.25rem;
+        }
+
+        .ecosystem-role {
+            font-family: var(--font-mono);
+            font-size: 0.78rem;
+            color: var(--accent-primary);
+            margin-bottom: 0.85rem;
+            text-transform: uppercase;
+        }
+
+        .ecosystem-desc {
+            color: var(--text-muted);
+            font-size: clamp(0.92rem, 1.4vw, 1.02rem);
+            line-height: 1.65;
+            margin-bottom: 1.6rem;
+            max-width: 760px;
+        }
+
+        .ecosystem-actions {
+            display: flex;
+            gap: 0.85rem;
+            flex-wrap: wrap;
+        }
+
+        .btn-ecosystem {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.55rem;
+            padding: 0.65rem 1.4rem;
+            border-radius: 100px;
+            background: rgba(0, 183, 255, 0.12);
+            border: 1px solid rgba(0, 183, 255, 0.3);
+            color: var(--text-main);
+            font-family: var(--font-mono);
+            font-size: 0.8rem;
+            transition: all 0.2s ease;
+        }
+
+        .btn-ecosystem:hover {
+            background: var(--accent-primary);
+            color: var(--text-dark);
+            border-color: var(--accent-primary);
+            transform: translateY(-2px);
+        }
+
+        .btn-ecosystem:active {
+            transform: scale(0.96) !important;
+        }
+
+        /* ==========================================================================
+           Section 03: My Projects
+           ========================================================================== */
+        .projects-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 1.15rem;
+        }
+
+        .project-item {
+            background: rgba(255, 255, 255, 0.012);
+            border: 1px solid var(--border-color);
+            border-radius: 14px;
+            padding: clamp(1.2rem, 2vw, 1.5rem);
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            transition: border-color 0.25s, transform 0.25s var(--ease-out), background-color 0.25s;
+        }
+
+        .project-item:hover {
+            border-color: rgba(0, 183, 255, 0.35);
+            background: rgba(0, 183, 255, 0.02);
+            transform: translateY(-3px);
+        }
+
+        .project-top-row {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 0.5rem;
+            gap: 0.5rem;
+        }
+
+        .project-item h3 {
+            font-size: 1.25rem;
             font-weight: 500;
             letter-spacing: -0.02em;
-            transition: color 0.25s;
+            transition: color 0.2s;
         }
 
-        .project-row:hover .project-info h3 {
+        .project-item:hover h3 {
             color: var(--accent-primary);
         }
 
         .project-badge {
             font-family: var(--font-mono);
-            font-size: 0.75rem;
+            font-size: 0.68rem;
             text-transform: uppercase;
-            padding: 0.2rem 0.6rem;
+            padding: 0.2rem 0.5rem;
             border-radius: 100px;
-            background: var(--accent-badge-bg);
+            background: rgba(0, 183, 255, 0.08);
             color: var(--accent-primary);
             border: 1px solid rgba(0, 183, 255, 0.2);
         }
 
-        .project-info p {
+        .project-desc {
             color: var(--text-muted);
-            line-height: 1.65;
-            margin-bottom: 1.25rem;
-            font-size: 1rem;
+            font-size: 0.85rem;
+            line-height: 1.55;
+            margin-bottom: 1.15rem;
+        }
+
+        .project-bottom-row {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 0.65rem;
+            padding-top: 0.75rem;
+            border-top: 1px solid rgba(255, 255, 255, 0.04);
         }
 
         .project-tags {
             display: flex;
-            gap: 0.75rem;
+            gap: 0.4rem;
             flex-wrap: wrap;
         }
 
         .project-tags span {
-            background: var(--bg-surface);
-            padding: 0.25rem 0.7rem;
+            background: rgba(255, 255, 255, 0.02);
+            padding: 0.18rem 0.5rem;
             border-radius: 6px;
             border: 1px solid var(--border-color);
-            font-size: 0.75rem;
-        }
-
-        .project-actions {
-            display: flex;
-            align-items: center;
-            gap: 1rem;
-        }
-
-        .btn-pill {
-            display: inline-flex;
-            align-items: center;
-            gap: 0.5rem;
-            padding: 0.65rem 1.2rem;
-            border-radius: 100px;
-            border: 1px solid var(--border-color);
-            background: var(--bg-surface);
-            color: var(--text-main);
-            font-family: var(--font-mono);
-            font-size: 0.8rem;
-            transition: background-color 0.25s, border-color 0.25s, transform 0.25s;
-        }
-
-        .btn-pill:hover {
-            background: var(--bg-surface-elevated);
-            border-color: var(--accent-primary);
-            transform: translateY(-2px);
+            font-size: 0.7rem;
+            color: var(--text-muted);
         }
 
         .btn-circle {
-            width: 58px;
-            height: 58px;
+            width: 38px;
+            height: 38px;
             border-radius: 50%;
             border: 1px solid var(--border-color);
             display: flex;
             justify-content: center;
             align-items: center;
-            font-size: 1.25rem;
+            font-size: 0.9rem;
             color: var(--text-main);
-            transition: background-color 0.3s, transform 0.3s var(--ease-out-expo), border-color 0.3s, color 0.3s;
+            transition: background-color 0.25s, transform 0.25s var(--ease-out), border-color 0.25s, color 0.25s;
         }
 
-        .project-row:hover .btn-circle {
+        .project-item:hover .btn-circle {
             background-color: var(--text-main);
             color: var(--text-dark);
             border-color: var(--text-main);
             transform: rotate(-45deg);
         }
 
-        /* Contact Section */
-        .contact-section {
+        .btn-circle:active {
+            transform: scale(0.92) rotate(-45deg) !important;
+        }
+
+        .btn-pill {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.35rem;
+            padding: 0.38rem 0.8rem;
+            border-radius: 100px;
+            border: 1px solid var(--border-color);
+            background: rgba(255, 255, 255, 0.02);
+            color: var(--text-main);
+            font-family: var(--font-mono);
+            font-size: 0.72rem;
+            transition: background-color 0.2s, border-color 0.2s, transform 0.2s;
+        }
+
+        .btn-pill:hover {
+            background: rgba(255, 255, 255, 0.08);
+            border-color: var(--accent-primary);
+            transform: translateY(-2px);
+        }
+
+        .btn-pill:active {
+            transform: scale(0.96) !important;
+        }
+
+        /* ==========================================================================
+           Section 04: Contact Me & Minimal Socials Dock
+           ========================================================================== */
+        .contact-content {
             text-align: center;
-            padding: 130px 5vw;
             display: flex;
             flex-direction: column;
             align-items: center;
-            background: linear-gradient(180deg, transparent 0%, rgba(0, 183, 255, 0.03) 100%);
+            padding-top: 1rem;
         }
 
         .massive-text {
-            font-size: clamp(3.2rem, 8.5vw, 7rem);
+            font-size: clamp(2.4rem, 5.5vw, 4.4rem);
             font-weight: 500;
-            letter-spacing: -0.05em;
-            line-height: 1;
-            margin: 0.75rem 0 1.25rem;
+            letter-spacing: -0.04em;
+            line-height: 1.05;
+            margin: 0.3rem 0 0.8rem;
         }
 
         .contact-desc {
-            max-width: 580px;
+            max-width: 520px;
             color: var(--text-muted);
-            font-size: 1.1rem;
-            line-height: 1.7;
-            margin-bottom: 2.5rem;
+            font-size: clamp(0.92rem, 1.35vw, 1.02rem);
+            line-height: 1.65;
+            margin-bottom: 1.8rem;
         }
 
         .contact-buttons {
             display: flex;
-            gap: 1.25rem;
+            gap: 0.85rem;
             flex-wrap: wrap;
             justify-content: center;
         }
 
-        .social-links {
-            margin-top: 3.5rem;
+        /* Clean Icon Dock */
+        .social-dock {
+            margin-top: 2.5rem;
             display: flex;
-            gap: 2rem;
+            gap: 0.75rem;
             flex-wrap: wrap;
             justify-content: center;
+            align-items: center;
         }
 
-        .social-links a {
-            font-family: var(--font-mono);
-            font-size: 0.9rem;
+        .social-icon-btn {
+            width: 44px;
+            height: 44px;
+            border-radius: 50%;
+            background: rgba(255, 255, 255, 0.02);
+            border: 1px solid var(--border-color);
             color: var(--text-muted);
-            display: flex;
+            display: inline-flex;
             align-items: center;
-            gap: 0.5rem;
-            transition: color 0.2s ease;
+            justify-content: center;
+            font-size: 1.1rem;
+            transition: all 0.25s var(--ease-out);
+            text-decoration: none;
         }
 
-        .social-links a:hover {
-            color: var(--text-main);
-        }
-
-        /* Footer */
-        .footer {
-            padding: 2.25rem 5vw;
-            border-top: 1px solid var(--border-color);
-        }
-
-        .footer-content {
-            max-width: 1400px;
-            margin: 0 auto;
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            flex-wrap: wrap;
-            gap: 1rem;
-        }
-
-        .footer-cats i {
+        .social-icon-btn:hover {
             color: var(--accent-primary);
-            margin-left: 0.35rem;
+            border-color: rgba(0, 183, 255, 0.45);
+            background: rgba(0, 183, 255, 0.08);
+            box-shadow: 0 0 16px rgba(0, 183, 255, 0.16);
+            transform: translateY(-3px);
         }
 
-        /* Toast */
-        .toast {
-            position: fixed;
-            bottom: 30px;
-            left: 50%;
-            transform: translateX(-50%) translateY(100px);
-            background-color: var(--bg-surface-elevated);
-            border: 1px solid var(--accent-primary);
-            color: var(--text-main);
-            padding: 0.8rem 1.6rem;
-            border-radius: 100px;
-            font-family: var(--font-mono);
-            font-size: 0.85rem;
-            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.6), 0 0 15px rgba(0, 183, 255, 0.2);
-            opacity: 0;
-            pointer-events: none;
-            z-index: 10001;
-            transition: transform 0.35s var(--ease-out-expo), opacity 0.35s;
+        .social-icon-btn:active {
+            transform: scale(0.92) !important;
         }
 
-        .toast.show {
-            transform: translateX(-50%) translateY(0);
-            opacity: 1;
+        .footer-note {
+            margin-top: 2.8rem;
+            padding-top: 1.4rem;
+            border-top: 1px solid rgba(255, 255, 255, 0.04);
+            width: 100%;
+            text-align: center;
         }
 
-        /* Reveals */
+        /* Reveal Animations */
         .reveal-up {
             opacity: 0;
-            transform: translateY(35px);
-            transition: opacity 0.8s var(--ease-out-expo), transform 0.8s var(--ease-out-expo);
+            transform: translateY(18px);
+            transition: opacity 0.6s var(--ease-out), transform 0.6s var(--ease-out);
         }
 
         .reveal-up.active {
@@ -887,42 +1115,38 @@
             transform: translateY(0);
         }
 
-        .reveal-down {
+        .hero-elem {
             opacity: 0;
-            transform: translateY(-20px);
-            transition: opacity 0.8s var(--ease-out-expo), transform 0.8s var(--ease-out-expo);
+            transform: translateY(20px);
+            will-change: opacity, transform, filter;
         }
 
-        .reveal-down.active {
-            opacity: 1;
-            transform: translateY(0);
+        @media (prefers-reduced-motion: reduce) {
+            .hero-elem,
+            .reveal-up {
+                opacity: 1 !important;
+                transform: none !important;
+                transition: none !important;
+                filter: none !important;
+            }
         }
 
         /* Responsive Breakpoints */
-        @media (max-width: 1024px) {
-            .bento-grid {
-                grid-template-columns: repeat(2, 1fr);
-            }
-            .span-2 { grid-column: span 2; }
-            .span-1 { grid-column: span 2; }
-        }
-
-        @media (max-width: 768px) {
+        @media (max-width: 820px) {
             .nav-links { display: none; }
             .menu-toggle { display: flex; }
-            .hero-content { padding-top: 6rem; }
-            .bento-grid { grid-template-columns: 1fr; }
-            .span-2, .span-1 { grid-column: span 1; }
-            .focus-grid { grid-template-columns: 1fr; }
-            .project-row {
-                flex-direction: column;
-                align-items: flex-start;
-                gap: 1.75rem;
-            }
-            .project-row:hover { padding: 2.75rem 0; }
-            .btn-circle { width: 50px; height: 50px; font-size: 1.15rem; }
+            .projects-grid { grid-template-columns: 1fr; }
             .cursor-dot, .cursor-ring, .ambient-glow { display: none !important; }
             * { cursor: auto !important; }
+        }
+
+        @media (max-width: 480px) {
+            .hero-actions .btn { width: 100%; }
+            .contact-buttons .btn { width: 100%; }
+            .tab-switcher { width: 100%; }
+            .tab-btn { flex: 1; justify-content: center; padding: 0.3rem 0.45rem; font-size: 0.7rem; }
+            .ecosystem-actions .btn-ecosystem { width: 100%; justify-content: center; }
+            .site-section { padding: 2.2rem 0; }
         }
     </style>
 </head>
@@ -935,18 +1159,19 @@
     <div class="cursor-dot" aria-hidden="true"></div>
     <div class="cursor-ring" aria-hidden="true"></div>
 
-    <!-- Navigation Bar -->
-    <nav class="navbar reveal-down" id="navbar">
+    <!-- Navigation Bar: 4 Sections Only -->
+    <nav class="navbar" id="navbar">
         <div class="nav-container">
             <a href="#" class="logo" aria-label="skye homepage">
+                <img src="https://github.com/skykoderhere.png" alt="skye logo" class="nav-avatar" width="32" height="32" loading="eager">
                 <span>skye</span><span class="accent-dot">.</span>
             </a>
             
             <div class="nav-links" id="nav-links">
-                <a href="#about" class="nav-item magnetic" data-strength="20">about</a>
-                <a href="#work" class="nav-item magnetic" data-strength="20">work</a>
-                <a href="#stack" class="nav-item magnetic" data-strength="20">stack</a>
-                <a href="#contact" class="nav-item magnetic" data-strength="20">contact</a>
+                <a href="#about" class="nav-item magnetic" data-strength="15">about</a>
+                <a href="#ecosystem" class="nav-item magnetic" data-strength="15">ecosystem</a>
+                <a href="#projects" class="nav-item magnetic" data-strength="15">projects</a>
+                <a href="#contact" class="nav-item magnetic" data-strength="15">contact</a>
             </div>
 
             <!-- Mobile Hamburger Toggle -->
@@ -959,8 +1184,8 @@
         <!-- Mobile Drawer -->
         <div class="mobile-menu" id="mobile-menu" aria-hidden="true">
             <a href="#about" class="mobile-nav-link">about</a>
-            <a href="#work" class="mobile-nav-link">work</a>
-            <a href="#stack" class="mobile-nav-link">stack</a>
+            <a href="#ecosystem" class="mobile-nav-link">ecosystem</a>
+            <a href="#projects" class="mobile-nav-link">projects</a>
             <a href="#contact" class="mobile-nav-link">contact</a>
         </div>
     </nav>
@@ -969,269 +1194,365 @@
         <!-- Hero Section -->
         <section id="hero" class="hero">
             <div class="hero-content">
-                <div class="availability reveal-up" style="transition-delay: 0.1s;">
+                <div class="availability hero-elem">
                     <div class="status-dot"></div>
-                    <span class="mono-text">building android mods & clean web apps;</span>
+                    <span class="mono-text">building android mods & clean web tools</span>
                 </div>
-                <h1 class="hero-title reveal-up" style="transition-delay: 0.2s;">
+                <h1 class="hero-title hero-elem">
                     crafting <span class="text-glow">clean code</span>,<br>
                     android mods & bots.
                 </h1>
-                <p class="hero-subtitle reveal-up" style="transition-delay: 0.3s;">
-                    19yo dev from earth. lead @ <span class="highlight">pawjects</span>. just a chill guy building android mods, clean web tools, and telegram bots.
+                <p class="hero-subtitle hero-elem">
+                    19yo developer from earth. lead @pawjects. crafting android mods, lightweight web apps, and telegram bots with zero bloat.
                 </p>
-                <div class="hero-actions reveal-up" style="transition-delay: 0.4s;">
-                    <a href="#work" class="btn btn-primary magnetic" data-strength="35">
-                        explore work <i class="fas fa-arrow-down"></i>
+                <div class="hero-actions hero-elem">
+                    <a href="#projects" class="btn btn-primary magnetic" data-strength="25">
+                        explore projects <i class="fas fa-arrow-down"></i>
                     </a>
-                    <a href="https://github.com/pawjects" target="_blank" rel="noopener noreferrer" class="btn btn-secondary magnetic" data-strength="35">
-                        <i class="fab fa-github"></i> pawjects
+                    <a href="#contact" class="btn btn-secondary magnetic" data-strength="25">
+                        <i class="fas fa-envelope"></i> get in touch
                     </a>
                 </div>
             </div>
         </section>
 
-        <!-- Bento Grid Section (About & What I Do) -->
-        <section id="about" class="section">
-            <div class="section-tag reveal-up">
-                <span class="mono-text accent-color">01 // about</span>
-                <h2 class="section-title">who i am.</h2>
-            </div>
+        <!-- 4 Core Sections Container (Seamless Background Matched) -->
+        <div class="content-container">
 
-            <div class="bento-grid">
-                <!-- Main About Card -->
-                <div class="bento-card span-2 reveal-up">
-                    <h3 class="bento-title"><i class="fas fa-terminal"></i> about_me</h3>
-                    <p class="bento-text">
-                        hey, i’m <strong>skye</strong> — a 19yo dev leading the open-source <strong>Pawjects</strong> crew.
-                        <br><br>
-                        mostly tinkering with android mods, writing handy telegram bots, and building clean web apps with pure amoled black and smooth ui. just keeping things simple and functional.
-                    </p>
-                    <blockquote class="bento-quote">
-                        “code hard. live slow.”
-                    </blockquote>
+            <!-- 1. ABOUT ME -->
+            <section id="about" class="site-section reveal-up">
+                <div class="section-header">
+                    <span class="section-number">01 // about me</span>
+                    <h2 class="section-heading">who i am.</h2>
                 </div>
 
-                <!-- Pawjects Org Card -->
-                <div class="bento-card pawjects-card reveal-up" style="transition-delay: 0.1s;">
-                    <div class="pawjects-content">
-                        <div class="paw-icon-wrapper">
-                            <i class="fas fa-paw paw-icon"></i>
+                <p class="bio-lead">
+                    hey, i’m <strong>skye</strong> — a 19yo developer building android mods, clean web tools, and automation bots. mostly tinkering with android apps, writing handy telegram bots, and engineering lightweight web tools with pure amoled black and smooth ui. keeping things simple, fast, and chill.
+                </p>
+                <div class="bio-quote">
+                    “code hard. live slow.” 🌿
+                </div>
+
+                <!-- Capabilities & Toolkit (3 Tabs: Stack, Build, Vibe & Interests) -->
+                <div class="compact-toolkit-bar">
+                    <div class="toolkit-header">
+                        <div class="toolkit-title">
+                            <i class="fas fa-sliders-h"></i> capabilities & toolkit
                         </div>
-                        <h3>PAWJECTS ORG</h3>
-                        <p class="mono-text">lead developer</p>
-                        <p class="pawjects-desc">our open-source home for android mods, media players & dev tools.</p>
-                        <a href="https://pawjects.github.io/" target="_blank" rel="noopener noreferrer" class="bento-link">
+                        <div class="tab-switcher" role="tablist">
+                            <button class="tab-btn active" data-tab="tab-stack" role="tab" aria-selected="true" aria-controls="tab-stack">
+                                <i class="fas fa-code"></i> stack
+                            </button>
+                            <button class="tab-btn" data-tab="tab-build" role="tab" aria-selected="false" aria-controls="tab-build">
+                                <i class="fas fa-cubes"></i> build
+                            </button>
+                            <button class="tab-btn" data-tab="tab-vibe" role="tab" aria-selected="false" aria-controls="tab-vibe">
+                                <i class="fas fa-heart"></i> vibe & interests
+                            </button>
+                        </div>
+                    </div>
+
+                    <!-- Tab 1: Tech Stack -->
+                    <div class="tab-panel active" id="tab-stack" role="tabpanel">
+                        <div class="compact-stack-row">
+                            <span class="tag-compact" tabindex="0" aria-label="Python - Scripting, Automation & Backend">
+                                <i class="fab fa-python"></i> Python
+                                <span class="tag-tooltip">Python (Scripts, Automation & Backend)</span>
+                            </span>
+                            <span class="tag-compact" tabindex="0" aria-label="Kotlin - Android App & Mod Development">
+                                <i class="fab fa-android"></i> Kotlin
+                                <span class="tag-tooltip">Kotlin (Android Apps & Mods)</span>
+                            </span>
+                            <span class="tag-compact" tabindex="0" aria-label="Java - Android Framework & Reverse Engineering">
+                                <i class="fab fa-java"></i> Java
+                                <span class="tag-tooltip">Java (Android SDK & Reverse Eng)</span>
+                            </span>
+                            <span class="tag-compact" tabindex="0" aria-label="JavaScript - Modern ES6+ Web Applications">
+                                <i class="fab fa-js"></i> JavaScript
+                                <span class="tag-tooltip">JavaScript (ES6+ Web Applications)</span>
+                            </span>
+                            <span class="tag-compact" tabindex="0" aria-label="Node.js - Server Runtime & CLI Tools">
+                                <i class="fab fa-node-js"></i> Node.js
+                                <span class="tag-tooltip">Node.js (Server Runtime & CLI)</span>
+                            </span>
+                            <span class="tag-compact" tabindex="0" aria-label="Express.js - REST APIs & Web Services">
+                                <i class="fab fa-bolt"></i> Express
+                                <span class="tag-tooltip">Express.js (Microservices & APIs)</span>
+                            </span>
+                            <span class="tag-compact" tabindex="0" aria-label="HTML5 - Semantic Frontend Markup">
+                                <i class="fab fa-html5"></i> HTML5
+                                <span class="tag-tooltip">HTML5 (Semantic Web Architecture)</span>
+                            </span>
+                            <span class="tag-compact" tabindex="0" aria-label="CSS3 - Responsive & AMOLED UI Design">
+                                <i class="fab fa-css3-alt"></i> CSS3
+                                <span class="tag-tooltip">CSS3 (Modern AMOLED & Layouts)</span>
+                            </span>
+                            <span class="tag-compact" tabindex="0" aria-label="Git - Version Control & Branching">
+                                <i class="fab fa-git-alt"></i> Git
+                                <span class="tag-tooltip">Git (Version Control & Collaboration)</span>
+                            </span>
+                            <span class="tag-compact" tabindex="0" aria-label="Linux - Bash Scripting, Debian & Arch Systems">
+                                <i class="fab fa-linux"></i> Linux
+                                <span class="tag-tooltip">Linux (Kernel, Bash & Systems)</span>
+                            </span>
+                            <span class="tag-compact" tabindex="0" aria-label="Smali - Android APK Bytecode Reverse Engineering">
+                                <i class="fas fa-wrench"></i> Smali
+                                <span class="tag-tooltip">Smali (APK Bytecode Disassembly)</span>
+                            </span>
+                            <span class="tag-compact" tabindex="0" aria-label="Telegram Bot API - Channel Utilities & Automation">
+                                <i class="fab fa-telegram"></i> Telegram API
+                                <span class="tag-tooltip">Telegram Bot API (Automation & Bots)</span>
+                            </span>
+                        </div>
+                    </div>
+
+                    <!-- Tab 2: What I Build -->
+                    <div class="tab-panel" id="tab-build" role="tabpanel">
+                        <div class="compact-grid-cards">
+                            <div class="compact-card-item">
+                                <h4><i class="fab fa-android"></i> Android Mods</h4>
+                                <p>Custom UI styling, iOS emoji replacement, and Material You elements.</p>
+                            </div>
+                            <div class="compact-card-item">
+                                <h4><i class="fab fa-telegram-plane"></i> Telegram Bots</h4>
+                                <p>Automation bots, channel utilities, and release distribution tools.</p>
+                            </div>
+                            <div class="compact-card-item">
+                                <h4><i class="fas fa-globe"></i> Web Apps</h4>
+                                <p>Lightweight frontend tools, PipedAPI players, and client compilers.</p>
+                            </div>
+                            <div class="compact-card-item">
+                                <h4><i class="fas fa-moon"></i> AMOLED Dark UI</h4>
+                                <p>Minimal true-black designs with fluid micro-interactions and contrast.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Tab 3: Personal Vibe & Interests -->
+                    <div class="tab-panel" id="tab-vibe" role="tabpanel">
+                        <div class="compact-grid-cards">
+                            <div class="compact-card-item">
+                                <h4><i class="fas fa-palette"></i> AMOLED & Setups</h4>
+                                <p>Deep black aesthetics, minimalist desk setups, and clean distraction-free tooling.</p>
+                            </div>
+                            <div class="compact-card-item">
+                                <h4><i class="fas fa-wind"></i> Slow Living & Walks</h4>
+                                <p>Quiet riverside walks, fresh evening air, calm tunes, and clear headspace.</p>
+                            </div>
+                            <div class="compact-card-item">
+                                <h4><i class="fas fa-camera"></i> Photography</h4>
+                                <p>Capturing moody real-life frames, architectural symmetry, and muted tones.</p>
+                            </div>
+                            <div class="compact-card-item">
+                                <h4><i class="fas fa-paw"></i> Cats & Tea</h4>
+                                <p>Patiently writing software, chill time around cats, and warm tea.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- 2. PAWJECTS ECOSYSTEM -->
+            <section id="ecosystem" class="site-section reveal-up">
+                <div class="section-header">
+                    <span class="section-number">02 // pawjects ecosystem</span>
+                    <h2 class="section-heading">pawjects ecosystem.</h2>
+                </div>
+
+                <div class="ecosystem-container">
+                    <div class="ecosystem-meta-row">
+                        <div class="ecosystem-badge">
+                            <span class="live-dot"></span> OPEN-SOURCE ECOSYSTEM
+                        </div>
+                        <div class="ecosystem-icon">
+                            <i class="fas fa-paw"></i>
+                        </div>
+                    </div>
+                    <div class="ecosystem-name">PAWJECTS ORGANISATION</div>
+                    <p class="ecosystem-role">lead developer</p>
+                    <p class="ecosystem-desc">
+                        our central open-source home dedicated to crafting android mods, privacy-first media players, and developer utilities. building software with zero bloat and clean design.
+                    </p>
+                    <!-- Pawjects link buttons ONLY in this section -->
+                    <div class="ecosystem-actions">
+                        <a href="https://pawjects.github.io/" target="_blank" rel="noopener noreferrer" class="btn-ecosystem magnetic" data-strength="15">
                             visit hub <i class="fas fa-arrow-up-right-from-square"></i>
                         </a>
+                        <a href="https://github.com/pawjects" target="_blank" rel="noopener noreferrer" class="btn-ecosystem magnetic" data-strength="15">
+                            <i class="fab fa-github"></i> github org
+                        </a>
                     </div>
                 </div>
+            </section>
 
-                <!-- Languages & Tools Card -->
-                <div class="bento-card span-1 reveal-up" id="stack" style="transition-delay: 0.2s;">
-                    <h3 class="bento-title"><i class="fas fa-code"></i> core stack</h3>
-                    <div class="tags-container">
-                        <span class="tag mono-text"><i class="fab fa-python"></i> Python</span>
-                        <span class="tag mono-text"><i class="fab fa-android"></i> Kotlin</span>
-                        <span class="tag mono-text"><i class="fab fa-java"></i> Java</span>
-                        <span class="tag mono-text"><i class="fab fa-js"></i> JavaScript</span>
-                        <span class="tag mono-text"><i class="fab fa-node-js"></i> Node.js</span>
-                        <span class="tag mono-text"><i class="fab fa-html5"></i> HTML5</span>
-                        <span class="tag mono-text"><i class="fab fa-css3-alt"></i> CSS3</span>
-                        <span class="tag mono-text"><i class="fab fa-git-alt"></i> Git</span>
-                        <span class="tag mono-text"><i class="fab fa-linux"></i> Linux</span>
-                    </div>
+            <!-- 3. MY PROJECTS -->
+            <section id="projects" class="site-section reveal-up">
+                <div class="section-header">
+                    <span class="section-number">03 // my projects</span>
+                    <h2 class="section-heading">my projects.</h2>
                 </div>
 
-                <!-- What I Do Card -->
-                <div class="bento-card span-2 reveal-up" style="transition-delay: 0.3s;">
-                    <h3 class="bento-title"><i class="fas fa-code-branch"></i> what i build</h3>
-                    <div class="focus-grid">
-                        <div class="focus-item">
-                            <div class="focus-header">
-                                <i class="fab fa-android"></i>
-                                <h4>Android Mods</h4>
+                <div class="projects-grid">
+                    <!-- PawGram -->
+                    <div class="project-item">
+                        <div>
+                            <div class="project-top-row">
+                                <h3>PawGram</h3>
+                                <span class="project-badge">Android Mod</span>
                             </div>
-                            <p>Modding apps with custom UI, iOS emojis, and Material You elements.</p>
+                            <p class="project-desc">instagram mod featuring ios emojis, clean typography & material you elements.</p>
                         </div>
-                        <div class="focus-item">
-                            <div class="focus-header">
-                                <i class="fab fa-telegram-plane"></i>
-                                <h4>Telegram Bots</h4>
+                        <div class="project-bottom-row">
+                            <div class="project-tags">
+                                <span>Android Mod</span>
+                                <span>Smali</span>
                             </div>
-                            <p>Helpful automation bots, channel utilities, and release tools.</p>
+                            <a href="https://github.com/pawjects/PawGram" target="_blank" rel="noopener noreferrer" class="btn-circle magnetic" data-strength="25" aria-label="PawGram Repo" title="PawGram on GitHub">
+                                <i class="fas fa-arrow-right"></i>
+                            </a>
                         </div>
-                        <div class="focus-item">
-                            <div class="focus-header">
-                                <i class="fas fa-globe"></i>
-                                <h4>Web Apps</h4>
+                    </div>
+
+                    <!-- PawTube -->
+                    <div class="project-item">
+                        <div>
+                            <div class="project-top-row">
+                                <h3>PawTube</h3>
+                                <span class="project-badge">Media Player</span>
                             </div>
-                            <p>Lightweight frontends, in-browser compilers, and music players.</p>
+                            <p class="project-desc">lightweight, distraction-free video player built for clean, smooth streaming.</p>
                         </div>
-                        <div class="focus-item">
-                            <div class="focus-header">
-                                <i class="fas fa-moon"></i>
-                                <h4>AMOLED Dark UI</h4>
+                        <div class="project-bottom-row">
+                            <div class="project-tags">
+                                <span>Video</span>
+                                <span>Streaming</span>
                             </div>
-                            <p>Minimal true-black designs with fluid interactions and clean typography.</p>
+                            <a href="https://github.com/pawjects/PawTube" target="_blank" rel="noopener noreferrer" class="btn-circle magnetic" data-strength="25" aria-label="PawTube Repo" title="PawTube on GitHub">
+                                <i class="fas fa-arrow-right"></i>
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- Pawtify -->
+                    <div class="project-item">
+                        <div>
+                            <div class="project-top-row">
+                                <h3>Pawtify</h3>
+                                <span class="project-badge">Web Music</span>
+                            </div>
+                            <p class="project-desc">pipedapi-powered web music player with spotify-inspired dark ui.</p>
+                        </div>
+                        <div class="project-bottom-row">
+                            <div class="project-tags">
+                                <span>Audio</span>
+                                <span>PipedAPI</span>
+                            </div>
+                            <div style="display: flex; gap: 0.5rem; align-items: center;">
+                                <a href="https://pawtify-meow.vercel.app" target="_blank" rel="noopener noreferrer" class="btn-pill magnetic" data-strength="15" title="Launch Live Web App">
+                                    <i class="fas fa-play"></i> live
+                                </a>
+                                <a href="https://github.com/pawjects/Pawtify" target="_blank" rel="noopener noreferrer" class="btn-circle magnetic" data-strength="25" aria-label="Pawtify Repo" title="Pawtify on GitHub">
+                                    <i class="fas fa-arrow-right"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- PawIDE -->
+                    <div class="project-item">
+                        <div>
+                            <div class="project-top-row">
+                                <h3>PawIDE</h3>
+                                <span class="project-badge">Dev Sandbox</span>
+                            </div>
+                            <p class="project-desc">quick in-browser frontend html/css/js playground & code compiler.</p>
+                        </div>
+                        <div class="project-bottom-row">
+                            <div class="project-tags">
+                                <span>JavaScript</span>
+                                <span>Compiler</span>
+                            </div>
+                            <div style="display: flex; gap: 0.5rem; align-items: center;">
+                                <a href="https://pawjects.github.io/PawIDE/" target="_blank" rel="noopener noreferrer" class="btn-pill magnetic" data-strength="15" title="Open PawIDE Sandbox">
+                                    <i class="fas fa-code"></i> ide
+                                </a>
+                                <a href="https://pawjects.github.io/PawIDE/" target="_blank" rel="noopener noreferrer" class="btn-circle magnetic" data-strength="25" aria-label="PawIDE Live App" title="PawIDE on GitHub">
+                                    <i class="fas fa-arrow-right"></i>
+                                </a>
+                            </div>
                         </div>
                     </div>
                 </div>
-            </div>
-        </section>
+            </section>
 
-        <!-- Selected Work Section -->
-        <section id="work" class="section">
-            <div class="section-tag reveal-up">
-                <span class="mono-text accent-color">02 // projects</span>
-                <h2 class="section-title">stuff i built.</h2>
-            </div>
-            
-            <div class="projects-list">
-                <!-- PawGram -->
-                <div class="project-row reveal-up">
-                    <div class="project-info">
-                        <div class="project-header-meta">
-                            <h3>PawGram</h3>
-                            <span class="project-badge">Android Mod</span>
-                        </div>
-                        <p>instagram mod featuring ios emojis, clean typography & material you elements.</p>
-                        <div class="project-tags">
-                            <span class="mono-text">Android Mod</span>
-                            <span class="mono-text">Smali</span>
-                            <span class="mono-text">Material You</span>
-                        </div>
-                    </div>
-                    <div class="project-actions">
-                        <a href="https://github.com/pawjects/PawGram" target="_blank" rel="noopener noreferrer" class="btn-circle magnetic" data-strength="40" aria-label="PawGram on GitHub">
-                            <i class="fas fa-arrow-right"></i>
+            <!-- 4. CONTACT ME -->
+            <section id="contact" class="site-section reveal-up">
+                <div class="contact-content">
+                    <span class="section-number">04 // contact me</span>
+                    <h2 class="massive-text">let's talk.</h2>
+                    <p class="contact-desc">
+                        best place to reach me is telegram. hit me up for open-source collaborations, android mods, or bot ideas.
+                    </p>
+                    
+                    <div class="contact-buttons">
+                        <a href="https://t.me/skykoderhere" target="_blank" rel="noopener noreferrer" class="btn btn-primary btn-large magnetic" data-strength="20">
+                            <i class="fab fa-telegram"></i> text @skykoderhere
                         </a>
+                        <a href="mailto:skykoderhere@gmail.com" class="btn btn-secondary btn-large magnetic" data-strength="20">
+                            <i class="fas fa-envelope"></i> email me
+                        </a>
+                    </div>
+                    
+                    <!-- Clean Social Media Dock -->
+                    <div class="social-dock" aria-label="Social profiles">
+                        <a href="https://t.me/skykoderhere" target="_blank" rel="noopener noreferrer" class="social-icon-btn magnetic" data-strength="15" aria-label="Telegram" title="Telegram">
+                            <i class="fab fa-telegram"></i>
+                        </a>
+                        <a href="https://x.com/skykoderhere" target="_blank" rel="noopener noreferrer" class="social-icon-btn magnetic" data-strength="15" aria-label="X (Twitter)" title="X (Twitter)">
+                            <i class="fab fa-x-twitter"></i>
+                        </a>
+                        <a href="https://github.com/skykoderhere" target="_blank" rel="noopener noreferrer" class="social-icon-btn magnetic" data-strength="15" aria-label="GitHub" title="GitHub">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="https://linkedin.com/in/skykoderhere" target="_blank" rel="noopener noreferrer" class="social-icon-btn magnetic" data-strength="15" aria-label="LinkedIn" title="LinkedIn">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+                        <a href="https://www.instagram.com/skykoderhere" target="_blank" rel="noopener noreferrer" class="social-icon-btn magnetic" data-strength="15" aria-label="Instagram" title="Instagram">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a href="mailto:skykoderhere@gmail.com" class="social-icon-btn magnetic" data-strength="15" aria-label="Email" title="Email">
+                            <i class="fas fa-envelope"></i>
+                        </a>
+                    </div>
+
+                    <div class="footer-note">
+                        <p class="mono-text">© 2026 skye. crafted with clean code.</p>
                     </div>
                 </div>
+            </section>
 
-                <!-- PawTube -->
-                <div class="project-row reveal-up">
-                    <div class="project-info">
-                        <div class="project-header-meta">
-                            <h3>PawTube</h3>
-                            <span class="project-badge">Media Player</span>
-                        </div>
-                        <p>lightweight, distraction-free video player built for clean, smooth streaming.</p>
-                        <div class="project-tags">
-                            <span class="mono-text">Video</span>
-                            <span class="mono-text">Privacy</span>
-                            <span class="mono-text">Streaming</span>
-                        </div>
-                    </div>
-                    <div class="project-actions">
-                        <a href="https://github.com/pawjects/PawTube" target="_blank" rel="noopener noreferrer" class="btn-circle magnetic" data-strength="40" aria-label="PawTube on GitHub">
-                            <i class="fas fa-arrow-right"></i>
-                        </a>
-                    </div>
-                </div>
-
-                <!-- Pawtify -->
-                <div class="project-row reveal-up">
-                    <div class="project-info">
-                        <div class="project-header-meta">
-                            <h3>Pawtify</h3>
-                            <span class="project-badge">Web Music</span>
-                        </div>
-                        <p>pipedapi-powered web music player with spotify-inspired dark ui.</p>
-                        <div class="project-tags">
-                            <span class="mono-text">Audio</span>
-                            <span class="mono-text">PipedAPI</span>
-                            <span class="mono-text">Vanilla JS</span>
-                        </div>
-                    </div>
-                    <div class="project-actions">
-                        <a href="https://pawtify-meow.vercel.app" target="_blank" rel="noopener noreferrer" class="btn-pill magnetic" data-strength="20" title="Launch Live Web App">
-                            <i class="fas fa-play"></i> live app
-                        </a>
-                        <a href="https://github.com/pawjects/Pawtify" target="_blank" rel="noopener noreferrer" class="btn-circle magnetic" data-strength="40" aria-label="Pawtify on GitHub">
-                            <i class="fas fa-arrow-right"></i>
-                        </a>
-                    </div>
-                </div>
-
-                <!-- PawIDE -->
-                <div class="project-row reveal-up">
-                    <div class="project-info">
-                        <div class="project-header-meta">
-                            <h3>PawIDE</h3>
-                            <span class="project-badge">Dev Sandbox</span>
-                        </div>
-                        <p>quick in-browser frontend html/css/js playground & code compiler.</p>
-                        <div class="project-tags">
-                            <span class="mono-text">JavaScript</span>
-                            <span class="mono-text">Compiler</span>
-                            <span class="mono-text">Sandbox</span>
-                        </div>
-                    </div>
-                    <div class="project-actions">
-                        <a href="https://pawjects.github.io/PawIDE/" target="_blank" rel="noopener noreferrer" class="btn-pill magnetic" data-strength="20" title="Open PawIDE Sandbox">
-                            <i class="fas fa-code"></i> launch ide
-                        </a>
-                        <a href="https://pawjects.github.io/PawIDE/" target="_blank" rel="noopener noreferrer" class="btn-circle magnetic" data-strength="40" aria-label="PawIDE Live App">
-                            <i class="fas fa-arrow-right"></i>
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- Let's Talk CTA Section -->
-        <section id="contact" class="contact-section reveal-up">
-            <span class="mono-text accent-color">03 // contact</span>
-            <h2 class="massive-text">let's talk.</h2>
-            <p class="contact-desc">
-                best place to catch me is telegram. hit me up for open-source collabs, android modding, or bot ideas.
-            </p>
-            
-            <div class="contact-buttons">
-                <a href="https://t.me/skykoderhere" target="_blank" rel="noopener noreferrer" class="btn btn-primary btn-large magnetic" data-strength="30">
-                    <i class="fab fa-telegram"></i> text @skykoderhere
-                </a>
-                <button class="btn btn-secondary btn-large magnetic copy-handle-btn" id="copy-handle-btn" data-handle="skykoderhere" data-strength="30">
-                    <i class="far fa-copy"></i> copy handle
-                </button>
-            </div>
-            
-            <div class="social-links">
-                <a href="https://github.com/skykoderhere" target="_blank" rel="noopener noreferrer" class="magnetic" data-strength="20">
-                    <i class="fab fa-github"></i> github
-                </a>
-                <a href="https://github.com/pawjects" target="_blank" rel="noopener noreferrer" class="magnetic" data-strength="20">
-                    <i class="fas fa-paw"></i> pawjects
-                </a>
-                <a href="https://t.me/skykoderhere" target="_blank" rel="noopener noreferrer" class="magnetic" data-strength="20">
-                    <i class="fab fa-telegram"></i> telegram
-                </a>
-                <a href="https://www.instagram.com/skykoderhere" target="_blank" rel="noopener noreferrer" class="magnetic" data-strength="20">
-                    <i class="fab fa-instagram"></i> instagram
-                </a>
-            </div>
-        </section>
+        </div>
     </main>
 
-    <!-- Footer -->
-    <footer class="footer">
-        <div class="footer-content">
-            <p class="mono-text">© 2026 skye. all rights reserved.</p>
-            <p class="mono-text footer-cats">
-                crafted with curiosity & cats <i class="fas fa-paw"></i>
-            </p>
-        </div>
-    </footer>
-
-    <!-- Toast Notification -->
-    <div id="toast" class="toast" role="alert" aria-live="polite">
-        <span class="toast-message" id="toast-message">copied to clipboard!</span>
-    </div>
+    <!-- GSAP Core -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
 
     <script>
         document.addEventListener('DOMContentLoaded', () => {
-            /* 1. Custom Cursor & Ambient Glow (Desktop / Fine-pointer only) */
+            /* 1. Haptic Feedback Utility (Modern mobile vibrate API) */
+            function triggerHaptic(intensity = 8) {
+                if ('vibrate' in navigator) {
+                    try {
+                        navigator.vibrate(intensity);
+                    } catch (e) {}
+                }
+            }
+
+            document.querySelectorAll('a, button, .tag-compact, .tab-btn').forEach((interactive) => {
+                interactive.addEventListener('click', () => triggerHaptic(10));
+            });
+
+            /* 2. Custom Cursor & Ambient Glow (Desktop only) */
             const cursorDot = document.querySelector('.cursor-dot');
             const cursorRing = document.querySelector('.cursor-ring');
             const ambientGlow = document.getElementById('ambient-glow');
@@ -1267,8 +1588,8 @@
                 });
 
                 function renderAmbientCursor() {
-                    ringX += (mouseX - ringX) * 0.16;
-                    ringY += (mouseY - ringY) * 0.16;
+                    ringX += (mouseX - ringX) * 0.18;
+                    ringY += (mouseY - ringY) * 0.18;
 
                     glowX += (mouseX - glowX) * 0.05;
                     glowY += (mouseY - glowY) * 0.05;
@@ -1283,15 +1604,13 @@
                 }
                 renderAmbientCursor();
 
-                const hoverTargets = document.querySelectorAll('a, button, .bento-card, .project-row, .tag, .focus-item');
+                const hoverTargets = document.querySelectorAll('a, button, .project-item, .tag-compact, .compact-card-item, .social-icon-btn');
                 hoverTargets.forEach((el) => {
                     el.addEventListener('mouseenter', () => {
-                        cursorRing.style.width = '54px';
-                        cursorRing.style.height = '54px';
+                        cursorRing.style.width = '48px';
+                        cursorRing.style.height = '48px';
                         cursorRing.style.backgroundColor = 'rgba(0, 183, 255, 0.08)';
                         cursorRing.style.borderColor = 'rgba(0, 183, 255, 0.6)';
-                        ambientGlow.style.width = '700px';
-                        ambientGlow.style.height = '700px';
                     });
 
                     el.addEventListener('mouseleave', () => {
@@ -1299,34 +1618,32 @@
                         cursorRing.style.height = '32px';
                         cursorRing.style.backgroundColor = 'transparent';
                         cursorRing.style.borderColor = 'rgba(255, 255, 255, 0.25)';
-                        ambientGlow.style.width = '580px';
-                        ambientGlow.style.height = '580px';
                     });
                 });
 
-                /* 2. Magnetic Elements */
+                /* 3. Magnetic Elements Physics */
                 const magnetics = document.querySelectorAll('.magnetic');
                 magnetics.forEach((btn) => {
                     btn.addEventListener('mousemove', (e) => {
                         const rect = btn.getBoundingClientRect();
                         const x = e.clientX - rect.left - rect.width / 2;
                         const y = e.clientY - rect.top - rect.height / 2;
-                        const strength = parseFloat(btn.dataset.strength) || 25;
+                        const strength = parseFloat(btn.dataset.strength) || 20;
 
                         btn.style.transform = `translate(${(x / rect.width) * strength}px, ${(y / rect.height) * strength}px)`;
                     });
 
                     btn.addEventListener('mouseleave', () => {
                         btn.style.transform = 'translate(0px, 0px)';
-                        btn.style.transition = 'transform 0.45s cubic-bezier(0.19, 1, 0.22, 1)';
+                        btn.style.transition = 'transform 0.4s cubic-bezier(0.16, 1, 0.3, 1)';
                         setTimeout(() => {
                             btn.style.transition = '';
-                        }, 450);
+                        }, 400);
                     });
                 });
             }
 
-            /* 3. Mobile Navigation Drawer */
+            /* 4. Mobile Navigation Drawer */
             const menuToggle = document.getElementById('menu-toggle');
             const mobileMenu = document.getElementById('mobile-menu');
 
@@ -1336,6 +1653,7 @@
                     mobileMenu.classList.toggle('open');
                     menuToggle.setAttribute('aria-expanded', String(isOpen));
                     mobileMenu.setAttribute('aria-hidden', String(!isOpen));
+                    triggerHaptic(12);
                 });
 
                 document.querySelectorAll('.mobile-nav-link').forEach((link) => {
@@ -1348,49 +1666,66 @@
                 });
             }
 
-            /* 4. Copy Handle Toast */
-            const copyBtn = document.getElementById('copy-handle-btn');
-            const toast = document.getElementById('toast');
-            const toastMessage = document.getElementById('toast-message');
-            let toastTimeout = null;
+            /* 5. Tabbed Capabilities & Toolkit Switcher (3 Tabs: Stack, Build, Vibe) */
+            const tabBtns = document.querySelectorAll('.tab-btn');
+            const tabPanels = document.querySelectorAll('.tab-panel');
 
-            function showToast(message) {
-                if (!toast) return;
-                if (toastMessage) toastMessage.textContent = message;
-                toast.classList.add('show');
+            tabBtns.forEach((btn) => {
+                btn.addEventListener('click', () => {
+                    const targetId = btn.getAttribute('data-tab');
+                    if (!targetId) return;
 
-                if (toastTimeout) clearTimeout(toastTimeout);
-                toastTimeout = setTimeout(() => {
-                    toast.classList.remove('show');
-                }, 2500);
-            }
+                    tabBtns.forEach((b) => {
+                        b.classList.remove('active');
+                        b.setAttribute('aria-selected', 'false');
+                    });
+                    tabPanels.forEach((p) => {
+                        p.classList.remove('active');
+                    });
 
-            if (copyBtn) {
-                copyBtn.addEventListener('click', async () => {
-                    const handle = copyBtn.dataset.handle || 'skykoderhere';
-                    try {
-                        if (navigator.clipboard && navigator.clipboard.writeText) {
-                            await navigator.clipboard.writeText(handle);
-                        } else {
-                            const tempInput = document.createElement('input');
-                            tempInput.value = handle;
-                            document.body.appendChild(tempInput);
-                            tempInput.select();
-                            document.execCommand('copy');
-                            document.body.removeChild(tempInput);
-                        }
-                        showToast(`Copied @${handle} to clipboard! 🐾`);
-                    } catch (err) {
-                        showToast(`Handle: @${handle}`);
+                    btn.classList.add('active');
+                    btn.setAttribute('aria-selected', 'true');
+                    const targetPanel = document.getElementById(targetId);
+                    if (targetPanel) {
+                        targetPanel.classList.add('active');
                     }
                 });
+            });
+
+            /* 6. Hero GSAP Staggered Entrance Animation */
+            if (typeof gsap !== 'undefined') {
+                const prefersReduced = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+                const heroElements = document.querySelectorAll('.hero-elem');
+
+                if (prefersReduced) {
+                    gsap.set(heroElements, { opacity: 1, y: 0, filter: 'none' });
+                } else {
+                    gsap.fromTo(
+                        heroElements,
+                        {
+                            opacity: 0,
+                            y: 24,
+                            filter: 'blur(6px)'
+                        },
+                        {
+                            opacity: 1,
+                            y: 0,
+                            filter: 'blur(0px)',
+                            duration: 0.9,
+                            stagger: 0.12,
+                            ease: 'power3.out',
+                            delay: 0.12,
+                            clearProps: 'filter'
+                        }
+                    );
+                }
             }
 
-            /* 5. Scroll Reveals */
-            const revealElements = document.querySelectorAll('.reveal-up, .reveal-down');
+            /* 7. Scroll Reveal Animation for Sections */
+            const revealElements = document.querySelectorAll('.reveal-up');
             const revealOptions = {
-                threshold: 0.12,
-                rootMargin: '0px 0px -40px 0px'
+                threshold: 0.08,
+                rootMargin: '0px 0px -25px 0px'
             };
 
             const revealObserver = new IntersectionObserver((entries, observer) => {
@@ -1405,13 +1740,6 @@
             revealElements.forEach((el) => {
                 revealObserver.observe(el);
             });
-
-            const navbar = document.getElementById('navbar');
-            if (navbar) {
-                setTimeout(() => {
-                    navbar.classList.add('active');
-                }, 80);
-            }
         });
     </script>
 </body>

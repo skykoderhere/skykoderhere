@@ -2,7 +2,7 @@
 
 # hey, i'm skye 🐾
 
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=20&duration=3000&pause=1000&color=00B7FF&center=true&vCenter=true&width=750&lines=19yo+dev+%E2%80%A2+building+android+mods+%26+web+apps;lead+developer+%40+pawjects+organisation;just+a+chill+guy+coding+clean+stuff;code+hard.+live+slow.+%F0%9F%8C%BF" alt="Typing SVG Banner" />
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=20&duration=3000&pause=1000&color=00B7FF&center=true&vCenter=true&width=750&lines=19yo+dev+%E2%80%A2+building+android+mods+%26+web+apps;lead+developer+%40pawjects+organisation;just+a+chill+guy+coding+clean+stuff;code+hard.+live+slow.+%F0%9F%8C%BF" alt="Typing SVG Banner" />
 
 <p align="center">
   <a href="https://skye.is-a.dev"><img src="https://img.shields.io/badge/portfolio-skye.is--a.dev-00B7FF?style=flat&logo=googlechrome&logoColor=white" alt="Portfolio" /></a>
@@ -54,11 +54,14 @@
 
 ---
 
-### 🔥 contribution streak
+### 🐍 contribution graph
+
 <div align="center">
-  <a href="https://github.com/skykoderhere">
-    <img src="https://github-readme-streak-stats.herokuapp.com/?user=skykoderhere&theme=transparent&background=000000&border=1f1f1f&stroke=00B7FF&ring=00B7FF&fire=00B7FF&currStreakNum=ffffff&sideNums=888888&dates=888888" alt="GitHub Streak" />
-  </a>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/skykoderhere/skykoderhere/output/github-contribution-grid-snake-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/skykoderhere/skykoderhere/output/github-contribution-grid-snake.svg">
+    <img alt="GitHub Contribution Snake" src="https://raw.githubusercontent.com/skykoderhere/skykoderhere/output/github-contribution-grid-snake-dark.svg" />
+  </picture>
 </div>
 
 ---
@@ -69,15 +72,18 @@
 
 <a href="https://t.me/skykoderhere"><img src="https://img.shields.io/badge/Telegram-@skykoderhere-26A5E4?style=flat&logo=telegram&logoColor=white" alt="Telegram" /></a>
 &nbsp;
+<a href="https://x.com/skykoderhere"><img src="https://img.shields.io/badge/X-@skykoderhere-000000?style=flat&logo=x&logoColor=white" alt="X" /></a>
+&nbsp;
 <a href="https://github.com/skykoderhere"><img src="https://img.shields.io/badge/GitHub-skykoderhere-181717?style=flat&logo=github&logoColor=white" alt="GitHub" /></a>
 &nbsp;
-<a href="https://skye.is-a.dev"><img src="https://img.shields.io/badge/Portfolio-skye.is--a.dev-00B7FF?style=flat&logo=googlechrome&logoColor=white" alt="Portfolio" /></a>
+<a href="https://linkedin.com/in/skykoderhere"><img src="https://img.shields.io/badge/LinkedIn-skykoderhere-0A66C2?style=flat&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
 &nbsp;
 <a href="https://www.instagram.com/skykoderhere"><img src="https://img.shields.io/badge/Instagram-@skykoderhere-E4405F?style=flat&logo=instagram&logoColor=white" alt="Instagram" /></a>
 &nbsp;
+<a href="mailto:skykoderhere@gmail.com"><img src="https://img.shields.io/badge/Gmail-skykoderhere-EA4335?style=flat&logo=gmail&logoColor=white" alt="Gmail" /></a>
+&nbsp;
+<a href="https://skye.is-a.dev"><img src="https://img.shields.io/badge/Portfolio-skye.is--a.dev-00B7FF?style=flat&logo=googlechrome&logoColor=white" alt="Portfolio" /></a>
+&nbsp;
 <a href="https://github.com/pawjects"><img src="https://img.shields.io/badge/Pawjects_Org-Hub-181717?style=flat&logo=github&logoColor=white" alt="Pawjects Org" /></a>
-
-<br/><br/>
-<sub>crafted with curiosity & cats 🐾</sub>
 
 </div>
