@@ -2,7 +2,7 @@
 
 # hey, i'm skye 🐾
 
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=20&duration=3000&pause=1000&color=00B7FF&center=true&vCenter=true&width=750&lines=19yo+dev+%E2%80%A2+building+android+mods+%26+web+apps;lead+developer+%40+pawjects+organisation;crafting+clean+amoled+interfaces+%26+telegram+bots;code+hard.+live+slow.+%F0%9F%8C%BF" alt="Typing SVG Banner" />
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=20&duration=3000&pause=1000&color=00B7FF&center=true&vCenter=true&width=750&lines=19yo+dev+%E2%80%A2+building+android+mods+%26+web+apps;lead+developer+%40+pawjects+organisation;engineering+amoled+interfaces+%26+telegram+bots;code+hard.+build+clean.+%F0%9F%8C%BF" alt="Typing SVG Banner" />
 
 <p align="center">
   <a href="https://skye.is-a.dev"><img src="https://img.shields.io/badge/portfolio-skye.is--a.dev-00B7FF?style=flat&logo=googlechrome&logoColor=white" alt="Portfolio" /></a>
@@ -15,11 +15,12 @@
 
 ---
 
-### ⚡ about me
+### ⚡ tech life & about me
 - **identity**: biswanath das (`skye`), 19-year-old developer
 - **lead @**: [pawjects organisation](https://github.com/pawjects)
-- **vibe**: amoled black, material you, photography, riverside walks & cats
-- **ethos**: *code hard. live slow.*
+- **engineering focus**: android modding (smali & apk patching), telegram bot automation, high-performance web tooling
+- **design ethos**: true amoled black contrast, material you m3, and zero-bloat code
+- **motto**: *code hard. build clean.*
 
 ---
 
