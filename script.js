@@ -1,128 +1,197 @@
 document.addEventListener('DOMContentLoaded', () => {
-    
     /* ==========================================================================
-       1. Custom Cursor & Ambient Glow (Desktop Only)
+       1. Custom Cursor & Ambient Glow (Desktop / Fine-pointer only)
        ========================================================================== */
     const cursorDot = document.querySelector('.cursor-dot');
     const cursorRing = document.querySelector('.cursor-ring');
     const ambientGlow = document.getElementById('ambient-glow');
-    
-    // Check if device supports hover (desktop)
-    const isDesktop = window.matchMedia("(hover: hover) and (pointer: fine)").matches;
+    const isDesktop = window.matchMedia('(hover: hover) and (pointer: fine)').matches;
 
-    if (isDesktop) {
+    if (isDesktop && cursorDot && cursorRing && ambientGlow) {
         let mouseX = window.innerWidth / 2;
         let mouseY = window.innerHeight / 2;
         let ringX = mouseX;
         let ringY = mouseY;
         let glowX = mouseX;
         let glowY = mouseY;
+        let isCursorActive = false;
 
-        // Mouse move tracking
         window.addEventListener('mousemove', (e) => {
             mouseX = e.clientX;
             mouseY = e.clientY;
-            
-            // Instant dot movement
+
+            if (!isCursorActive) {
+                isCursorActive = true;
+                cursorDot.classList.add('cursor-visible');
+                cursorRing.classList.add('cursor-visible');
+            }
+
             cursorDot.style.left = `${mouseX}px`;
             cursorDot.style.top = `${mouseY}px`;
         });
 
-        // Smooth follow animation for Ring and Glow using requestAnimationFrame
-        function renderCursor() {
-            // Lerp (Linear Interpolation) for smooth trailing
-            ringX += (mouseX - ringX) * 0.15;
-            ringY += (mouseY - ringY) * 0.15;
-            
-            glowX += (mouseX - glowX) * 0.05; // Glow follows slower
+        document.addEventListener('mouseleave', () => {
+            isCursorActive = false;
+            cursorDot.classList.remove('cursor-visible');
+            cursorRing.classList.remove('cursor-visible');
+        });
+
+        // Smooth Lerp animation loop
+        function renderAmbientCursor() {
+            ringX += (mouseX - ringX) * 0.16;
+            ringY += (mouseY - ringY) * 0.16;
+
+            glowX += (mouseX - glowX) * 0.05;
             glowY += (mouseY - glowY) * 0.05;
 
             cursorRing.style.left = `${ringX}px`;
             cursorRing.style.top = `${ringY}px`;
-            
+
             ambientGlow.style.left = `${glowX}px`;
             ambientGlow.style.top = `${glowY}px`;
 
-            requestAnimationFrame(renderCursor);
+            requestAnimationFrame(renderAmbientCursor);
         }
-        renderCursor();
+        renderAmbientCursor();
 
-        // Hover states for interactive elements
-        const interactables = document.querySelectorAll('a, button, .bento-card, .project-row');
-        
-        interactables.forEach(el => {
+        // Interactive hover expansions
+        const hoverTargets = document.querySelectorAll('a, button, .bento-card, .project-row, .tag, .interest-item');
+        hoverTargets.forEach((el) => {
             el.addEventListener('mouseenter', () => {
-                cursorRing.style.width = '60px';
-                cursorRing.style.height = '60px';
-                cursorRing.style.backgroundColor = 'rgba(255,255,255,0.05)';
-                cursorRing.style.borderColor = 'rgba(255,255,255,0.5)';
-                ambientGlow.style.width = '800px'; // Expand glow slightly
-                ambientGlow.style.height = '800px';
+                cursorRing.style.width = '56px';
+                cursorRing.style.height = '56px';
+                cursorRing.style.backgroundColor = 'rgba(0, 183, 255, 0.08)';
+                cursorRing.style.borderColor = 'rgba(0, 183, 255, 0.6)';
+                ambientGlow.style.width = '750px';
+                ambientGlow.style.height = '750px';
             });
-            
+
             el.addEventListener('mouseleave', () => {
                 cursorRing.style.width = '32px';
                 cursorRing.style.height = '32px';
                 cursorRing.style.backgroundColor = 'transparent';
-                cursorRing.style.borderColor = 'rgba(255,255,255,0.2)';
+                cursorRing.style.borderColor = 'rgba(255, 255, 255, 0.25)';
                 ambientGlow.style.width = '600px';
                 ambientGlow.style.height = '600px';
             });
         });
 
         /* ==========================================================================
-           2. Magnetic Buttons Effect
+           2. Magnetic Elements (Buttons & Icons)
            ========================================================================== */
         const magnetics = document.querySelectorAll('.magnetic');
-        
-        magnetics.forEach(btn => {
+        magnetics.forEach((btn) => {
             btn.addEventListener('mousemove', (e) => {
-                const position = btn.getBoundingClientRect();
-                const x = e.pageX - position.left - position.width / 2;
-                const y = e.pageY - position.top - position.height / 2;
-                
-                const strength = btn.dataset.strength || 20; // Default strength
-                
-                btn.style.transform = `translate(${x / position.width * strength}px, ${y / position.height * strength}px)`;
+                const rect = btn.getBoundingClientRect();
+                const x = e.clientX - rect.left - rect.width / 2;
+                const y = e.clientY - rect.top - rect.height / 2;
+                const strength = parseFloat(btn.dataset.strength) || 25;
+
+                btn.style.transform = `translate(${(x / rect.width) * strength}px, ${(y / rect.height) * strength}px)`;
             });
-            
+
             btn.addEventListener('mouseleave', () => {
                 btn.style.transform = 'translate(0px, 0px)';
-                // Optional: add a spring back transition dynamically
-                btn.style.transition = 'transform 0.5s cubic-bezier(0.19, 1, 0.22, 1)';
+                btn.style.transition = 'transform 0.45s cubic-bezier(0.19, 1, 0.22, 1)';
                 setTimeout(() => {
-                    btn.style.transition = 'transform 0.3s cubic-bezier(0.19, 1, 0.22, 1), background-color 0.3s';
-                }, 500);
+                    btn.style.transition = '';
+                }, 450);
             });
         });
     }
 
     /* ==========================================================================
-       3. Scroll Reveal Animation (Intersection Observer)
+       3. Mobile Navigation Drawer Toggle
+       ========================================================================== */
+    const menuToggle = document.getElementById('menu-toggle');
+    const mobileMenu = document.getElementById('mobile-menu');
+
+    if (menuToggle && mobileMenu) {
+        menuToggle.addEventListener('click', () => {
+            const isOpen = menuToggle.classList.toggle('open');
+            mobileMenu.classList.toggle('open');
+            menuToggle.setAttribute('aria-expanded', String(isOpen));
+            mobileMenu.setAttribute('aria-hidden', String(!isOpen));
+        });
+
+        // Close on link click
+        document.querySelectorAll('.mobile-nav-link').forEach((link) => {
+            link.addEventListener('click', () => {
+                menuToggle.classList.remove('open');
+                mobileMenu.classList.remove('open');
+                menuToggle.setAttribute('aria-expanded', 'false');
+                mobileMenu.setAttribute('aria-hidden', 'true');
+            });
+        });
+    }
+
+    /* ==========================================================================
+       4. Copy Handle to Clipboard with Toast Notification
+       ========================================================================== */
+    const copyBtn = document.getElementById('copy-handle-btn');
+    const toast = document.getElementById('toast');
+    const toastMessage = document.getElementById('toast-message');
+    let toastTimeout = null;
+
+    function showToast(message) {
+        if (!toast) return;
+        if (toastMessage) toastMessage.textContent = message;
+        toast.classList.add('show');
+
+        if (toastTimeout) clearTimeout(toastTimeout);
+        toastTimeout = setTimeout(() => {
+            toast.classList.remove('show');
+        }, 2500);
+    }
+
+    if (copyBtn) {
+        copyBtn.addEventListener('click', async () => {
+            const handle = copyBtn.dataset.handle || 'skykoderhere';
+            try {
+                if (navigator.clipboard && navigator.clipboard.writeText) {
+                    await navigator.clipboard.writeText(handle);
+                } else {
+                    const tempInput = document.createElement('input');
+                    tempInput.value = handle;
+                    document.body.appendChild(tempInput);
+                    tempInput.select();
+                    document.execCommand('copy');
+                    document.body.removeChild(tempInput);
+                }
+                showToast(`Copied @${handle} to clipboard! 🐾`);
+            } catch (err) {
+                showToast(`Handle: @${handle}`);
+            }
+        });
+    }
+
+    /* ==========================================================================
+       5. Scroll Reveal Animations (Intersection Observer)
        ========================================================================== */
     const revealElements = document.querySelectorAll('.reveal-up, .reveal-down');
-
     const revealOptions = {
-        threshold: 0.1,
-        rootMargin: "0px 0px -50px 0px"
+        threshold: 0.12,
+        rootMargin: '0px 0px -40px 0px'
     };
 
-    const revealOnScroll = new IntersectionObserver(function(entries, observer) {
-        entries.forEach(entry => {
+    const revealObserver = new IntersectionObserver((entries, observer) => {
+        entries.forEach((entry) => {
             if (entry.isIntersecting) {
                 entry.target.classList.add('active');
-                observer.unobserve(entry.target); // Only reveal once
+                observer.unobserve(entry.target);
             }
         });
     }, revealOptions);
 
-    revealElements.forEach(el => {
-        revealOnScroll.observe(el);
+    revealElements.forEach((el) => {
+        revealObserver.observe(el);
     });
-    
-    // Trigger navbar immediately
-    setTimeout(() => {
-        document.querySelector('.navbar').classList.add('active');
-    }, 100);
 
+    // Animate navbar immediately
+    const navbar = document.getElementById('navbar');
+    if (navbar) {
+        setTimeout(() => {
+            navbar.classList.add('active');
+        }, 80);
+    }
 });

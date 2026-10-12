@@ -1,116 +1,129 @@
+# ✧ skye | developer devfolio
+
 <div align="center">
 
-<img src="https://github.githubassets.com/assets/mona-loading-dark-7701a7b97370.gif" width="75px"/>
-<br>
-<img src="https://readme-typing-svg.demolab.com?font=Orbitron&weight=700&size=28&duration=3500&pause=1000&color=00F0FF&center=true&vCenter=true&width=900&lines=SKY+%E2%80%A2+Full+Stack+Developer;Building+Fast+%26+Clean+Digital+Experiences;Open+Source+%7C+UI%2FUX+%7C+Performance+Focused;PawGram+%E2%80%A2+PawTube+%E2%80%A2+Pawtify" />
+<img src="https://github.githubassets.com/assets/mona-loading-dark-7701a7b97370.gif" width="60px" alt="Loading"/>
 
-<br>
+<br/>
+
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=24&duration=3000&pause=1200&color=00B7FF&center=true&vCenter=true&width=800&lines=skye+%E2%80%A2+Frontend+Developer+%26+Bot+Creator;Lead+Developer+%40+Pawjects+Organisation;Crafting+AMOLED-clean+interfaces+%26+open-source+tools;Code+hard.+Live+slow.+%F0%9F%8C%BF" alt="Typing SVG Banner" />
+
+<p align="center">
+  <a href="https://skye.is-a.dev"><img src="https://img.shields.io/badge/Live_Portfolio-skye.is--a.dev-00B7FF?style=flat-square&logo=google-chrome&logoColor=white" alt="Live Site"></a>
+  <a href="https://t.me/skykoderhere"><img src="https://img.shields.io/badge/Telegram-@skykoderhere-26A5E4?style=flat-square&logo=telegram&logoColor=white" alt="Telegram"></a>
+  <a href="https://github.com/pawjects"><img src="https://img.shields.io/badge/Organisation-Pawjects-181717?style=flat-square&logo=github&logoColor=white" alt="Pawjects"></a>
+  <a href="https://github.com/skykoderhere"><img src="https://img.shields.io/badge/GitHub-skykoderhere-ffffff?style=flat-square&logo=github&logoColor=black" alt="GitHub"></a>
+</p>
 
 </div>
 
 ---
 
-```js
-const skye = {
-    role: "Developer",
+## ⚡ About Me
 
-    focus: [
-        "Frontend Engineering",
-        "Performance Optimization",
-        "Modern UI/UX",
-        "Open Source"
-    ],
+Hey, I'm **Biswanath Das** (known across the web as **skye**). A 19-year-old developer passionate about crafting minimal, high-contrast, AMOLED-first web experiences, Android customizations, and Telegram bot ecosystems.
 
-    projects: {
-        active: [
-            "PawGram",
-            "PawTube",
-            "Pawtify",
-            "PawIDE"
-        ]
-    },
+I lead the open-source **[Pawjects Organisation](https://pawjects.github.io/)**, building tools, mods, and web apps with an emphasis on performance, privacy, and aesthetic clarity.
 
-    currentlyLearning: [
-        "Advanced Frontend Architecture",
-        "Performance Engineering",
-        "Backend Scalability"
-    ],
-
-    motto: "Build clean. Keep improving."
-};
+```typescript
+interface Developer {
+  name: "Biswanath Das";
+  alias: "skye" | "skykoderhere";
+  age: 19;
+  role: "Lead Developer @ Pawjects";
+  ethos: "Code hard. Live slow.";
+  passions: ["Material You", "AMOLED Dark Mode", "Android Mods", "Cats 🐾", "Riverside walks & Cafés 🌿"];
+}
 ```
 
-# ⚡ About Me
-
-Developer focused on creating modern, optimized and visually polished digital experiences.
-
-I enjoy building projects that feel smooth, lightweight and practical while maintaining a futuristic and engaging interface.
-
-- 🌐 Web Development
-- ⚡ Performance Optimization
-- 🎨 UI / UX Engineering
-- 🚀 Open Source Development
-- 📱 Android Customization & Modding
-
 ---
 
-# 🧩 Tech Stack
+## 🛠️ Tech Stack & Tooling
 
 <div align="center">
 
-<img src="https://skillicons.dev/icons?i=html,js,react,python,kotlin,git" />
+| Domain | Technologies |
+|---|---|
+| **Core Languages** | `Python` • `Java` • `Kotlin` • `JavaScript (ESNext)` • `TypeScript` • `HTML5` • `CSS3` |
+| **Web & Frameworks** | `Node.js` • `Express` • `Vanilla JS` • `REST APIs` • `Vite` |
+| **Mobile & Mods** | `Android SDK` • `Kotlin` • `Material You (M3)` • `Smali / APK Tooling` |
+| **Tooling & Workflow** | `Git` • `GitHub Actions` • `VS Code` • `IntelliJ IDEA` • `Telegram Bot API` |
+
+<br/>
+
+<img src="https://skillicons.dev/icons?i=python,kotlin,java,js,html,css,nodejs,express,git,github,vscode,linux" alt="Tech Skills"/>
 
 </div>
 
 ---
 
-# 🚀 Projects
+## 🐾 Featured Projects & Ecosystem
 
-<div align="center">
+The flagship projects built under the **[Pawjects](https://github.com/pawjects)** umbrella:
 
-| Project | Description | Status |
-|---|---|---|
-| 🐾 **PawGram** | Optimized social experience focused on smoothness and usability | 🟢 Active |
-| 📺 **PawTube** | Lightweight and clean media-focused platform experience | 🟢 Active |
-| 🎵 **Pawtify** | Futuristic music player web app with immersive UI | 🟢 Active |
-| 🖥️ **PawIDE** | A HTML5 compiler frontend webApp | 🟢 Active |
-
-</div>
-
----
-
-# 🌐 Connect
-
-<div align="center">
-
-<a href="https://github.com/skykoderhere">
-    <img src="https://img.shields.io/static/v1?label=&message=GitHub&color=121212&logo=github&logoColor=white" alt="GitHub">
-</a>
-
-<a href="https://t.me/skykoderhere">
-    <img src="https://img.shields.io/static/v1?label=&message=Telegram&color=121212&logo=telegram&logoColor=white" alt="Telegram">
-</a>
-
-<a href="https://www.instagram.com/skykoderhere">
-    <img src="https://img.shields.io/static/v1?label=&message=Instagram&color=121212&logo=instagram&logoColor=white" alt="Instagram">
-</a>
-
-<br>
-
-<a href="https://about.me/BiswanathDas">
-    <img src="https://img.shields.io/static/v1?label=&message=About%20Me&color=121212&logo=readme&logoColor=white" alt="About Me">
-</a>
-
-<a href="https://skye.is-a.dev">
-    <img src="https://img.shields.io/static/v1?label=&message=Portfolio&color=121212&logo=googlechrome&logoColor=white" alt="Portfolio">
-</a>
-
-</div>
+| Project | Focus | Description | Repository / Link |
+|---|---|---|---|
+| **🐾 PawGram** | Android Mod & UI | Modified Instagram experience featuring sleek iOS-inspired typography, custom emojis, and Material You aesthetics. | [GitHub Repo](https://github.com/pawjects/PawGram) |
+| **📺 PawTube** | Video & Media Player | Privacy-centric, distraction-free video streaming client built for lightweight media consumption. | [GitHub Repo](https://github.com/pawjects/PawTube) |
+| **🎵 Pawtify** | Web Music Streaming | Browser-based Spotify-styled streaming client powered by pipedapi with zero interruptions and fluid playback. | [GitHub Repo](https://github.com/pawjects/Pawtify) • [Live App](https://pawtify-meow.vercel.app) |
+| **🖥️ PawIDE** | Developer Sandbox | Fast, in-browser frontend HTML/CSS/JavaScript code compiler and real-time playground. | [Live Sandbox](https://pawjects.github.io/PawIDE/) |
+| **🌐 Pawjects Hub** | Ecosystem Portal | The central home and documentation directory for all open-source Pawjects releases. | [Visit Hub](https://pawjects.github.io/) |
 
 ---
 
+## 📂 Repository Structure
+
+```text
+├── .github/
+│   └── workflows/
+│       └── static.yml       # GitHub Actions workflow for static deployment
+├── index.html               # Main portfolio landing page (Bento grid, semantic HTML5)
+├── style.css                # AMOLED dark mode, fluid typography, cursor & bento styles
+├── script.js                # Ambient effects, magnetic buttons, scroll reveal & mobile nav
+├── server.js                # Production Express HTTP server (Node.js runtime)
+├── package.json             # NPM package manifest & scripts
+├── metadata.json            # AI Studio application metadata
+├── .env.example             # Environment variable template
+├── CNAME                    # Custom domain mapping (skye.is-a.dev)
+└── README.md                # Project documentation and profile showcase
+```
+
+---
+
+## 🚀 Running Locally
+
+### Prerequisites
+- **Node.js**: v18+ (Node.js 22 recommended)
+- **npm**: v9+
+
+### Quick Start
+```bash
+# 1. Clone the repository
+git clone https://github.com/skykoderhere/skykoderhere.git
+cd skykoderhere
+
+# 2. Install dependencies
+npm install
+
+# 3. Start development server
+npm run dev
+```
+
+Visit `http://localhost:3000` in your browser.
+
+---
+
+## 📬 Connect & Reach Out
+
+- 💬 **Telegram**: [@skykoderhere](https://t.me/skykoderhere) *(Preferred contact)*
+- 🐙 **GitHub**: [@skykoderhere](https://github.com/skykoderhere)
+- 🐾 **Pawjects Org**: [pawjects.github.io](https://pawjects.github.io/)
+- 📸 **Instagram**: [@skykoderhere](https://www.instagram.com/skykoderhere)
+- 🌐 **Portfolio**: [skye.is-a.dev](https://skye.is-a.dev)
+
+---
+
 <div align="center">
-
-### crafted with 🐾 by skye
-
+  <p><b>Crafted with curiosity & cats 🐾</b></p>
+  <p>© 2026 Biswanath Das (skye). All rights reserved.</p>
 </div>

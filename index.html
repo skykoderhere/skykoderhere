@@ -3,37 +3,90 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="skye - Teenage Frontend Developer, Telegram Bot Enthusiast, and Main Developer behind Pawjects Organisation, skykoderhere, Biswanath Das, PawDeveloper.">
-    <meta property="og:title" content="skye | Minimalist Devfolio">
-    <meta property="og:description" content="A passionate young developer's digital home.">
+    <title>skye | developer & creator</title>
+    <meta name="description" content="Biswanath Das (skye) - 19yo developer, lead behind Pawjects Organisation. Crafting minimal AMOLED web experiences, Android mods, and Telegram bots.">
+    <meta name="keywords" content="skye, Biswanath Das, skykoderhere, PawDeveloper, Pawjects, frontend developer, Android mods, Telegram bots, Material You, AMOLED">
+    <meta name="author" content="Biswanath Das (skye)">
+    <meta name="theme-color" content="#000000">
+
+    <!-- Canonical & OpenGraph -->
+    <link rel="canonical" href="https://skye.is-a.dev">
+    <meta property="og:title" content="skye | developer & creator">
+    <meta property="og:description" content="Minimalist devfolio of Biswanath Das (skye) — Lead Developer at Pawjects Organisation.">
+    <meta property="og:url" content="https://skye.is-a.dev">
     <meta property="og:type" content="website">
-    <title>skye | developer</title>
-    
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="skye | developer & creator">
+    <meta name="twitter:description" content="Minimalist devfolio of Biswanath Das (skye) — Lead Developer at Pawjects Organisation.">
+
+    <!-- Favicon -->
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🐾</text></svg>">
+
+    <!-- Structured Data (JSON-LD) -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "name": "Biswanath Das",
+      "alternateName": "skye",
+      "url": "https://skye.is-a.dev",
+      "jobTitle": "Lead Developer",
+      "worksFor": {
+        "@type": "Organization",
+        "name": "Pawjects"
+      },
+      "sameAs": [
+        "https://github.com/skykoderhere",
+        "https://github.com/pawjects",
+        "https://t.me/skykoderhere",
+        "https://www.instagram.com/skykoderhere"
+      ]
+    }
+    </script>
+
     <!-- Fonts & Icons -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <!-- Premium Ambient Effects -->
-    <div class="noise"></div>
-    <div class="ambient-glow" id="ambient-glow"></div>
+    <!-- Premium Ambient Background Effects -->
+    <div class="noise" aria-hidden="true"></div>
+    <div class="ambient-glow" id="ambient-glow" aria-hidden="true"></div>
     
-    <!-- Custom Cursor -->
-    <div class="cursor-dot"></div>
-    <div class="cursor-ring"></div>
+    <!-- Custom Cursor (Desktop Only) -->
+    <div class="cursor-dot" aria-hidden="true"></div>
+    <div class="cursor-ring" aria-hidden="true"></div>
 
-    <!-- Navigation -->
-    <nav class="navbar reveal-down">
+    <!-- Navigation Bar -->
+    <nav class="navbar reveal-down" id="navbar">
         <div class="nav-container">
-            <a href="#" class="logo">skye.</a>
-            <div class="nav-links">
-                <a href="#about" class="magnetic" data-strength="20">About</a>
-                <a href="#work" class="magnetic" data-strength="20">Work</a>
-                <a href="#contact" class="magnetic" data-strength="20">Contact</a>
+            <a href="#" class="logo" aria-label="skye homepage">
+                <span>skye</span><span class="accent-dot">.</span>
+            </a>
+            
+            <div class="nav-links" id="nav-links">
+                <a href="#about" class="nav-item magnetic" data-strength="20">About</a>
+                <a href="#work" class="nav-item magnetic" data-strength="20">Work</a>
+                <a href="#stack" class="nav-item magnetic" data-strength="20">Stack</a>
+                <a href="#contact" class="nav-item magnetic" data-strength="20">Contact</a>
             </div>
+
+            <!-- Mobile Hamburger Toggle -->
+            <button class="menu-toggle" id="menu-toggle" aria-label="Toggle navigation menu" aria-expanded="false">
+                <span class="hamburger-bar"></span>
+                <span class="hamburger-bar"></span>
+            </button>
+        </div>
+
+        <!-- Mobile Drawer -->
+        <div class="mobile-menu" id="mobile-menu" aria-hidden="true">
+            <a href="#about" class="mobile-nav-link">About</a>
+            <a href="#work" class="mobile-nav-link">Work</a>
+            <a href="#stack" class="mobile-nav-link">Stack</a>
+            <a href="#contact" class="mobile-nav-link">Contact</a>
         </div>
     </nav>
 
@@ -45,98 +98,117 @@
                     <div class="status-dot"></div>
                     <span class="mono-text">Crafting tech with paws;</span>
                 </div>
-                <h1 class="reveal-up" style="transition-delay: 0.2s;">
+                <h1 class="hero-title reveal-up" style="transition-delay: 0.2s;">
                     Crafting <span class="text-glow">minimal</span> web<br>
                     experiences & bots.
                 </h1>
                 <p class="hero-subtitle reveal-up" style="transition-delay: 0.3s;">
-                    Hello World! I'm <span class="highlight">skye</span>, a 9teen dev from Earth-837<br>
-                    Balancing my own lifestyle with infinite tech addictions and plenty of interests.
+                    Hello World! I'm <span class="highlight">skye</span>, a 19yo developer from Earth-837.<br>
+                    Balancing clean code, AMOLED darkness, and lightweight digital architecture.
                 </p>
                 <div class="hero-actions reveal-up" style="transition-delay: 0.4s;">
-                    <a href="#work" class="btn btn-primary magnetic" data-strength="40">
+                    <a href="#work" class="btn btn-primary magnetic" data-strength="35">
                         Explore Work <i class="fas fa-arrow-down"></i>
+                    </a>
+                    <a href="https://github.com/pawjects" target="_blank" rel="noopener noreferrer" class="btn btn-secondary magnetic" data-strength="35">
+                        <i class="fab fa-github"></i> Pawjects Org
                     </a>
                 </div>
             </div>
         </section>
 
-        <!-- Bento Grid Section (About & Skills) -->
+        <!-- Bento Grid Section (About & Persona) -->
         <section id="about" class="section">
+            <div class="section-tag reveal-up">
+                <span class="mono-text accent-color">01 // Profile</span>
+                <h2 class="section-title">About Me.</h2>
+            </div>
+
             <div class="bento-grid">
-                
                 <!-- Main About Card -->
                 <div class="bento-card span-2 reveal-up">
-                    <h2 class="bento-title"><i class="fas fa-terminal"></i> about_me</h2>
+                    <h3 class="bento-title"><i class="fas fa-terminal"></i> about_me</h3>
                     <p class="bento-text">
-                        Hey, I’m Biswanath Das — better known as skye, a 19yo developer. 🧑‍💻
-
-I lead the open-source Pawjects ecosystem, building Android mods, web experiences, AI-powered tools, and Telegram bots.
-
-I’m into clean UI, Material You, AMOLED dark mode, cats, and anime. Outside code, I keep things slow — photography, riverside walks, and roadside cafés. 🌿📷
-
-<blockquote>Code hard. Live slow.</blockquote>
+                        Hey, I’m <strong>Biswanath Das</strong> — better known as <strong>skye</strong>, a 19-year-old developer. 🧑‍💻
+                        <br><br>
+                        I lead the open-source <strong>Pawjects</strong> ecosystem, designing custom Android mods, clean web interfaces, Telegram automation bots, and lightweight developer utilities.
+                        <br><br>
+                        Obsessed with Material You aesthetics, pure AMOLED contrast, cats, and anime. When taking a breather from code, I slow things down — photography, riverside walks, and quiet roadside cafés. 🌿📷
                     </p>
+                    <blockquote class="bento-quote">
+                        “Code hard. Live slow.”
+                    </blockquote>
                 </div>
 
-                <!-- Pawjects Card -->
+                <!-- Pawjects Org Card -->
                 <div class="bento-card pawjects-card reveal-up" style="transition-delay: 0.1s;">
                     <div class="pawjects-content">
-                        <i class="fas fa-users paw-icon"></i>
+                        <div class="paw-icon-wrapper">
+                            <i class="fas fa-paw paw-icon"></i>
+                        </div>
                         <h3>PAWJECTS ORG</h3>
                         <p class="mono-text">Lead Developer</p>
-                        <a href="https://pawjects.github.io/" target="_blank" class="bento-link">Visit Hub <i class="fas fa-external-link-alt"></i></a>
+                        <p class="pawjects-desc">Open-source ecosystem for Android mods, web apps & bots.</p>
+                        <a href="https://pawjects.github.io/" target="_blank" rel="noopener noreferrer" class="bento-link">
+                            Visit Hub <i class="fas fa-arrow-up-right-from-square"></i>
+                        </a>
                     </div>
                 </div>
 
-                <!-- Languages Card -->
-                <div class="bento-card span-1 reveal-up" style="transition-delay: 0.2s;">
-                    <h2 class="bento-title">Languages</h2>
+                <!-- Languages & Tools Card -->
+                <div class="bento-card span-1 reveal-up" id="stack" style="transition-delay: 0.2s;">
+                    <h3 class="bento-title"><i class="fas fa-code"></i> Core Stack</h3>
                     <div class="tags-container">
-                        <span class="tag mono-text">Python</span>
-                        <span class="tag mono-text">Java</span>
-                        <span class="tag mono-text">Kotlin</span>
-                        <span class="tag mono-text">JavaScript</span>
-                        <span class="tag mono-text">HTML5</span>
-                        <span class="tag mono-text">CSS3</span>
+                        <span class="tag mono-text"><i class="fab fa-python"></i> Python</span>
+                        <span class="tag mono-text"><i class="fab fa-android"></i> Kotlin</span>
+                        <span class="tag mono-text"><i class="fab fa-java"></i> Java</span>
+                        <span class="tag mono-text"><i class="fab fa-js"></i> JavaScript</span>
+                        <span class="tag mono-text"><i class="fab fa-node-js"></i> Node.js</span>
+                        <span class="tag mono-text"><i class="fab fa-html5"></i> HTML5</span>
+                        <span class="tag mono-text"><i class="fab fa-css3-alt"></i> CSS3</span>
+                        <span class="tag mono-text"><i class="fab fa-git-alt"></i> Git</span>
                     </div>
                 </div>
 
-                <!-- Interests Card -->
+                <!-- Interests & Vibe Card -->
                 <div class="bento-card span-2 reveal-up" style="transition-delay: 0.3s;">
-                    <h2 class="bento-title">Interests & Vibe</h2>
+                    <h3 class="bento-title"><i class="fas fa-sparkles"></i> Interests & Vibe</h3>
                     <div class="interest-icons">
                         <div class="interest-item"><i class="fas fa-tv"></i><span>Anime</span></div>
-                        <div class="interest-item"><i class="fas fa-paw"></i><span>Cats</span></div>
+                        <div class="interest-item"><i class="fas fa-cat"></i><span>Cats</span></div>
                         <div class="interest-item"><i class="fas fa-camera"></i><span>Photography</span></div>
                         <div class="interest-item"><i class="fab fa-android"></i><span>Android Mods</span></div>
+                        <div class="interest-item"><i class="fas fa-moon"></i><span>AMOLED Dark</span></div>
                         <div class="interest-item"><i class="fas fa-pen-nib"></i><span>Minimalism</span></div>
                     </div>
                 </div>
-
             </div>
         </section>
 
         <!-- Selected Work Section -->
         <section id="work" class="section">
-            <div class="section-header reveal-up">
-                <span class="mono-text accent-color">01 // Portfolio</span>
-                <h2 class="huge-title">Selected Work.</h2>
+            <div class="section-tag reveal-up">
+                <span class="mono-text accent-color">02 // Portfolio</span>
+                <h2 class="section-title">Selected Work.</h2>
             </div>
             
             <div class="projects-list">
                 <!-- PawGram -->
                 <div class="project-row reveal-up">
                     <div class="project-info">
-                        <h3>PawGram</h3>
-                        <p>A modified Instagram experience with sleek, iOS-inspired design elements & fonts.</p>
+                        <div class="project-header-meta">
+                            <h3>PawGram</h3>
+                            <span class="project-badge">Android Mod</span>
+                        </div>
+                        <p>A modified Instagram experience with sleek, iOS-inspired typography, custom emojis, and Material You elements.</p>
                         <div class="project-tags">
                             <span class="mono-text">Android Mod</span>
                             <span class="mono-text">UI/UX</span>
+                            <span class="mono-text">Material You</span>
                         </div>
                     </div>
-                    <div class="project-link-wrapper">
-                                                <a href="https://github.com/pawjects/PawGram" target="_blank" class="btn-circle magnetic" data-strength="50">
+                    <div class="project-actions">
+                        <a href="https://github.com/pawjects/PawGram" target="_blank" rel="noopener noreferrer" class="btn-circle magnetic" data-strength="40" aria-label="PawGram GitHub repository">
                             <i class="fas fa-arrow-right"></i>
                         </a>
                     </div>
@@ -145,15 +217,19 @@ I’m into clean UI, Material You, AMOLED dark mode, cats, and anime. Outside co
                 <!-- PawTube -->
                 <div class="project-row reveal-up">
                     <div class="project-info">
-                        <h3>PawTube</h3>
-                        <p>A privacy-focused, distraction-free video player built from the ground up for a seamless viewing experience.</p>
+                        <div class="project-header-meta">
+                            <h3>PawTube</h3>
+                            <span class="project-badge">Streaming</span>
+                        </div>
+                        <p>A privacy-focused, distraction-free video player built for lightweight media streaming and uninterrupted playback.</p>
                         <div class="project-tags">
                             <span class="mono-text">Video Platform</span>
                             <span class="mono-text">Privacy</span>
+                            <span class="mono-text">Player</span>
                         </div>
                     </div>
-                    <div class="project-link-wrapper">
-                                                <a href="https://github.com/pawjects/PawTube" target="_blank" class="btn-circle magnetic" data-strength="50">
+                    <div class="project-actions">
+                        <a href="https://github.com/pawjects/PawTube" target="_blank" rel="noopener noreferrer" class="btn-circle magnetic" data-strength="40" aria-label="PawTube GitHub repository">
                             <i class="fas fa-arrow-right"></i>
                         </a>
                     </div>
@@ -162,15 +238,22 @@ I’m into clean UI, Material You, AMOLED dark mode, cats, and anime. Outside co
                 <!-- Pawtify -->
                 <div class="project-row reveal-up">
                     <div class="project-info">
-                        <h3>Pawtify</h3>
-                        <p>A complete browser-based static web music player app designed for fluid, uninterrupted listening.</p>
+                        <div class="project-header-meta">
+                            <h3>Pawtify</h3>
+                            <span class="project-badge">Web Music</span>
+                        </div>
+                        <p>A complete browser-based static web music player app designed for fluid, uninterrupted listening inspired by Spotify UI.</p>
                         <div class="project-tags">
                             <span class="mono-text">Audio</span>
                             <span class="mono-text">Vanilla JS</span>
+                            <span class="mono-text">PipedAPI</span>
                         </div>
                     </div>
-                    <div class="project-link-wrapper">
-                        <a href="https://github.com/pawjects/Pawtify" target="_blank" class="btn-circle magnetic" data-strength="50">
+                    <div class="project-actions">
+                        <a href="https://pawtify-meow.vercel.app" target="_blank" rel="noopener noreferrer" class="btn-pill magnetic" data-strength="20" title="Launch Live Web App">
+                            <i class="fas fa-play"></i> Live App
+                        </a>
+                        <a href="https://github.com/pawjects/Pawtify" target="_blank" rel="noopener noreferrer" class="btn-circle magnetic" data-strength="40" aria-label="Pawtify GitHub repository">
                             <i class="fas fa-arrow-right"></i>
                         </a>
                     </div>
@@ -179,15 +262,22 @@ I’m into clean UI, Material You, AMOLED dark mode, cats, and anime. Outside co
                 <!-- PawIDE -->
                 <div class="project-row reveal-up">
                     <div class="project-info">
-                        <h3>PawIDE</h3>
-                        <p>A Frontend HTML code compiler webApp</p>
+                        <div class="project-header-meta">
+                            <h3>PawIDE</h3>
+                            <span class="project-badge">Developer Tool</span>
+                        </div>
+                        <p>A real-time frontend HTML, CSS, and JavaScript compiler and sandbox web app running completely client-side.</p>
                         <div class="project-tags">
-                            <span class="mono-text">Javascript</span>
+                            <span class="mono-text">JavaScript</span>
                             <span class="mono-text">Compiler</span>
+                            <span class="mono-text">Sandbox</span>
                         </div>
                     </div>
-                    <div class="project-link-wrapper">
-                                                <a href="https://pawjects.github.io/PawIDE/" target="_blank" class="btn-circle magnetic" data-strength="50">
+                    <div class="project-actions">
+                        <a href="https://pawjects.github.io/PawIDE/" target="_blank" rel="noopener noreferrer" class="btn-pill magnetic" data-strength="20" title="Open PawIDE Sandbox">
+                            <i class="fas fa-code"></i> Launch IDE
+                        </a>
+                        <a href="https://pawjects.github.io/PawIDE/" target="_blank" rel="noopener noreferrer" class="btn-circle magnetic" data-strength="40" aria-label="PawIDE Live App">
                             <i class="fas fa-arrow-right"></i>
                         </a>
                     </div>
@@ -195,30 +285,54 @@ I’m into clean UI, Material You, AMOLED dark mode, cats, and anime. Outside co
             </div>
         </section>
 
-        <!-- Let's Talk CTA -->
+        <!-- Let's Talk CTA Section -->
         <section id="contact" class="contact-section reveal-up">
+            <span class="mono-text accent-color">03 // Get in Touch</span>
             <h2 class="massive-text">Let's Talk.</h2>
             <p class="contact-desc">
-                The best and only way to reach me is through Telegram. Whether it's open-source, Material You, or Android customization, I'm always up for a chat.
+                The best way to reach me is through Telegram. Whether it's open-source projects, Android customizations, or bot ideas, I'm always up for a chat.
             </p>
-            <a href="https://t.me/skykoderhere" target="_blank" class="btn btn-primary btn-large magnetic" data-strength="30">
-                <i class="fab fa-telegram-plane"></i> Message skye
-            </a>
+            
+            <div class="contact-buttons">
+                <a href="https://t.me/skykoderhere" target="_blank" rel="noopener noreferrer" class="btn btn-primary btn-large magnetic" data-strength="30">
+                    <i class="fab fa-telegram"></i> Message @skykoderhere
+                </a>
+                <button class="btn btn-secondary btn-large magnetic copy-handle-btn" id="copy-handle-btn" data-handle="skykoderhere" data-strength="30">
+                    <i class="far fa-copy"></i> Copy Handle
+                </button>
+            </div>
             
             <div class="social-links">
-                <a href="https://github.com/skykoderhere" target="_blank" class="magnetic" data-strength="20"><i class="fab fa-github"></i> GitHub</a>
-                <a href="https://pawjects.github.io/" target="_blank" class="magnetic" data-strength="20"><i class="fas fa-users"></i> Pawjects</a>
-                <a href="https://www.instagram.com/skykoderhere" target="_blank" class="magnetic" data-strength="20"><i class="fab fa-instagram"></i> Instagram</a>
+                <a href="https://github.com/skykoderhere" target="_blank" rel="noopener noreferrer" class="magnetic" data-strength="20">
+                    <i class="fab fa-github"></i> GitHub
+                </a>
+                <a href="https://github.com/pawjects" target="_blank" rel="noopener noreferrer" class="magnetic" data-strength="20">
+                    <i class="fas fa-paw"></i> Pawjects
+                </a>
+                <a href="https://t.me/skykoderhere" target="_blank" rel="noopener noreferrer" class="magnetic" data-strength="20">
+                    <i class="fab fa-telegram"></i> Telegram
+                </a>
+                <a href="https://www.instagram.com/skykoderhere" target="_blank" rel="noopener noreferrer" class="magnetic" data-strength="20">
+                    <i class="fab fa-instagram"></i> Instagram
+                </a>
             </div>
         </section>
     </main>
 
+    <!-- Footer -->
     <footer class="footer">
         <div class="footer-content">
-            <p class="mono-text">© 2026 skye. All rights reserved.</p>
-            <p class="mono-text footer-cats">Powered by curiosity & cats <i class="fas fa-paw"></i></p>
+            <p class="mono-text">© 2026 Biswanath Das (skye). All rights reserved.</p>
+            <p class="mono-text footer-cats">
+                Crafted with curiosity & cats <i class="fas fa-paw"></i>
+            </p>
         </div>
     </footer>
+
+    <!-- Toast Notification -->
+    <div id="toast" class="toast" role="alert" aria-live="polite">
+        <span class="toast-message" id="toast-message">Copied to clipboard!</span>
+    </div>
 
     <script src="script.js"></script>
 </body>

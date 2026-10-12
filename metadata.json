@@ -1,0 +1,8 @@
+{
+  "name": "skye | developer",
+  "description": "Minimalist Devfolio - Teenage Frontend Developer, Telegram Bot Enthusiast, and Main Developer behind Pawjects Organisation.",
+  "permissions": [],
+  "capabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
