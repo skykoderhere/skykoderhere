@@ -23,7 +23,7 @@ i like amoled black, material you ui, photography, and cats.
 
 ### stuff i built
 
-- **[PawGram](https://github.com/pawjects/PawGram)** — instagram mod with ios emojis, clean fonts & material you styling.
+- **[PawGram](https://skye.is-a.dev/PawGram)** ([repo](https://github.com/pawjects/PawGram)) — instagram mod with ios emojis, clean fonts & material you styling.
 - **[PawTube](https://github.com/pawjects/PawTube)** — lightweight, distraction-free video player for clean streaming.
 - **[Pawtify](https://github.com/pawjects/Pawtify)** ([live app](https://pawtify-meow.vercel.app)) — pipedapi-powered web music player with spotify-style ui.
 - **[PawIDE](https://pawjects.github.io/PawIDE/)** — in-browser frontend html/css/js sandbox & playground.
