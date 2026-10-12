@@ -6,7 +6,8 @@
   "scripts": {
     "dev": "node server.js",
     "start": "node server.js",
-    "build": "node -e \"process.exit(0)\""
+    "build": "node -e \"process.exit(0)\"",
+    "sync:pawgram": "node scripts/sync-pawgram.js"
   },
   "dependencies": {
     "express": "^4.21.2"

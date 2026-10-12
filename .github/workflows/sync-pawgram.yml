@@ -1,0 +1,46 @@
+name: Sync PawGram Website
+
+on:
+  # 1. Automatic periodic sync (runs every 6 hours)
+  schedule:
+    - cron: '0 */6 * * *'
+
+  # 2. Triggered from PawGram repo or external webhook
+  repository_dispatch:
+    types: [pawgram-updated, sync]
+
+  # 3. Manual trigger via GitHub Actions UI
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  sync-upstream:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout portfolio repository
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Fetch latest PawGram website files
+        run: node scripts/sync-pawgram.js
+
+      - name: Commit & push if updated
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add PawGram
+          if git diff --staged --quiet; then
+            echo "No changes detected in PawGram website."
+          else
+            git commit -m "chore(sync): update PawGram website from upstream pawjects/PawGram"
+            git push
+            echo "PawGram website updated and pushed to main."
+          fi
