@@ -1,7 +1,7 @@
 <div align="center">
 
 <a href="https://github.com/skykoderhere">
-  <img src="https://github.com/skykoderhere.png" width="105" height="105" alt="skye" style="border-radius: 50%; max-width: 100%;" />
+  <img src="assets/avatar.png" width="105" height="105" alt="skye" style="border-radius: 50%; max-width: 100%;" />
 </a>
 
 # hey, i'm skye 🐾
