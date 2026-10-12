@@ -1,10 +1,15 @@
 <div align="center">
 
+<a href="https://github.com/skykoderhere">
+  <img src="https://github.com/skykoderhere.png" width="105" height="105" alt="skye" style="border-radius: 50%; max-width: 100%;" />
+</a>
+
 # hey, i'm skye 🐾
 
 <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=20&duration=3000&pause=1000&color=00B7FF&center=true&vCenter=true&width=750&lines=19yo+dev+%E2%80%A2+building+android+mods+%26+web+apps;lead+developer+%40pawjects+organisation;just+a+chill+guy+coding+clean+stuff;code+hard.+live+slow.+%F0%9F%8C%BF" alt="Typing SVG Banner" />
 
 <p align="center">
+  <a href="https://github.com/skykoderhere/skykoderhere/actions/workflows/snake.yml"><img src="https://img.shields.io/badge/snake-active-22c55e?style=flat&logo=github&logoColor=white" alt="Snake Status" /></a>
   <a href="https://skye.is-a.dev"><img src="https://img.shields.io/badge/portfolio-skye.is--a.dev-00B7FF?style=flat&logo=googlechrome&logoColor=white" alt="Portfolio" /></a>
   <a href="https://t.me/skykoderhere"><img src="https://img.shields.io/badge/telegram-@skykoderhere-26A5E4?style=flat&logo=telegram&logoColor=white" alt="Telegram" /></a>
   <a href="https://github.com/pawjects"><img src="https://img.shields.io/badge/org-pawjects-181717?style=flat&logo=github&logoColor=white" alt="Pawjects" /></a>
@@ -57,6 +62,10 @@
 ### 🐍 contribution graph
 
 <div align="center">
+  <p align="center">
+    <a href="https://github.com/skykoderhere/skykoderhere/actions/workflows/snake.yml"><img src="https://img.shields.io/badge/snake-active-22c55e?style=flat&logo=github&logoColor=white" alt="Snake Status" /></a>
+    <img src="https://img.shields.io/badge/contribution_snake-green-22c55e?style=flat&logo=git&logoColor=white" alt="Contribution Snake Green Accent" />
+  </p>
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/skykoderhere/skykoderhere/output/github-contribution-grid-snake-dark.svg">
     <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/skykoderhere/skykoderhere/output/github-contribution-grid-snake.svg">
