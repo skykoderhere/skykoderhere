@@ -89,6 +89,10 @@
 &nbsp;
 <a href="https://www.instagram.com/skykoderhere"><img src="https://img.shields.io/badge/Instagram-@skykoderhere-E4405F?style=flat&logo=instagram&logoColor=white" alt="Instagram" /></a>
 &nbsp;
+<a href="https://buymeacoffee.com/skykoderhere"><img src="https://img.shields.io/badge/Buy_Me_A_Coffee-skykoderhere-FFDD00?style=flat&logo=buymeacoffee&logoColor=black" alt="Buy Me A Coffee" /></a>
+&nbsp;
+<a href="https://linktr.ee/skykoderhere"><img src="https://img.shields.io/badge/Linktree-skykoderhere-43E660?style=flat&logo=linktree&logoColor=white" alt="Linktree" /></a>
+&nbsp;
 <a href="mailto:skykoderhere@gmail.com"><img src="https://img.shields.io/badge/Gmail-skykoderhere-EA4335?style=flat&logo=gmail&logoColor=white" alt="Gmail" /></a>
 &nbsp;
 <a href="https://skye.is-a.dev"><img src="https://img.shields.io/badge/Portfolio-skye.is--a.dev-00B7FF?style=flat&logo=googlechrome&logoColor=white" alt="Portfolio" /></a>
