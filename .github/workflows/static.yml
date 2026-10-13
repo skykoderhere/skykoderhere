@@ -29,13 +29,24 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: 22
-          cache: 'npm'
 
       - name: Install Dependencies
-        run: npm ci || npm install
+        run: |
+          if [ -f package-lock.json ]; then
+            npm ci || npm install
+          elif [ -f yarn.lock ]; then
+            npx yarn install --frozen-lockfile || npm install
+          elif [ -f bun.lock ] || [ -f bun.lockb ]; then
+            npx bun install || npm install
+          else
+            npm install
+          fi
 
       - name: Build TypeScript Project
         run: npm run build
+
+      - name: Clean Node Modules for Pages Artifact
+        run: rm -rf node_modules
 
       - name: Configure GitHub Pages
         uses: actions/configure-pages@v5

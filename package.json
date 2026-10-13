@@ -6,6 +6,7 @@
   "scripts": {
     "dev": "node server.ts",
     "start": "node server.ts",
+    "lint": "tsc --noEmit",
     "build": "tsc --noEmit && esbuild src/main.ts --bundle --outfile=dist/main.js --minify --sourcemap --target=es2022"
   },
   "dependencies": {
