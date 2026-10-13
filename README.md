@@ -1,8 +1,13 @@
 <div align="center">
 
-<a href="https://github.com/skykoderhere">
-  <img src="assets/avatar.png" width="105" height="105" alt="skye" style="border-radius: 50%; max-width: 100%;" />
-</a>
+<p align="center">
+  <a href="https://github.com/skykoderhere">
+    <img src="assets/avatar.png" width="105" height="105" alt="skye" style="border-radius: 50%; max-width: 100%; vertical-align: middle; margin-right: 12px;" />
+  </a>
+  <a href="https://github.com/skykoderhere">
+    <img src="assets/octocat.png" width="105" height="105" alt="GitHub Octocat" style="max-width: 100%; vertical-align: middle;" />
+  </a>
+</p>
 
 # hey, i'm skye 🐾
 

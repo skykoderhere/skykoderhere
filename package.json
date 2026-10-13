@@ -4,11 +4,17 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "dev": "node server.js",
-    "start": "node server.js",
-    "build": "node -e \"process.exit(0)\""
+    "dev": "node server.ts",
+    "start": "node server.ts",
+    "build": "tsc --noEmit && esbuild src/main.ts --bundle --outfile=dist/main.js --minify --sourcemap --target=es2022"
   },
   "dependencies": {
     "express": "^4.21.2"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.6",
+    "@types/node": "^26.6.5",
+    "esbuild": "^0.28.2",
+    "typescript": "^7.0.2"
   }
 }
