@@ -9,11 +9,10 @@
 <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=20&duration=3000&pause=1000&color=00B7FF&center=true&vCenter=true&width=750&lines=19yo+dev+%E2%80%A2+building+android+mods+%26+web+apps;lead+developer+%40pawjects+organisation;just+a+chill+guy+coding+clean+stuff;code+hard.+live+slow.+%F0%9F%8C%BF" alt="Typing SVG Banner" />
 
 <p align="center">
-  <a href="https://github.com/skykoderhere/skykoderhere/actions/workflows/snake.yml"><img src="https://img.shields.io/badge/snake-active-22c55e?style=flat&logo=github&logoColor=white" alt="Snake Status" /></a>
   <a href="https://skye.is-a.dev"><img src="https://img.shields.io/badge/portfolio-skye.is--a.dev-00B7FF?style=flat&logo=googlechrome&logoColor=white" alt="Portfolio" /></a>
-  <a href="https://t.me/skykoderhere"><img src="https://img.shields.io/badge/telegram-@skykoderhere-26A5E4?style=flat&logo=telegram&logoColor=white" alt="Telegram" /></a>
   <a href="https://github.com/pawjects"><img src="https://img.shields.io/badge/org-pawjects-181717?style=flat&logo=github&logoColor=white" alt="Pawjects" /></a>
   <a href="https://github.com/skykoderhere"><img src="https://img.shields.io/github/followers/skykoderhere?style=flat&logo=github&logoColor=white&color=121212" alt="Followers" /></a>
+  <img src="https://komarev.com/ghpvc/?username=skykoderhere&color=00B7FF&style=flat&label=views" alt="Profile Views" />
 </p>
 
 </div>
@@ -64,7 +63,6 @@
 <div align="center">
   <p align="center">
     <a href="https://github.com/skykoderhere/skykoderhere/actions/workflows/snake.yml"><img src="https://img.shields.io/badge/snake-active-22c55e?style=flat&logo=github&logoColor=white" alt="Snake Status" /></a>
-    <img src="https://img.shields.io/badge/contribution_snake-green-22c55e?style=flat&logo=git&logoColor=white" alt="Contribution Snake Green Accent" />
   </p>
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/skykoderhere/skykoderhere/output/github-contribution-grid-snake-dark.svg">
@@ -78,25 +76,14 @@
 ### 📬 hit me up
 
 <div align="center">
-
-<a href="https://t.me/skykoderhere"><img src="https://img.shields.io/badge/Telegram-@skykoderhere-26A5E4?style=flat&logo=telegram&logoColor=white" alt="Telegram" /></a>
-&nbsp;
-<a href="https://x.com/skykoderhere"><img src="https://img.shields.io/badge/X-@skykoderhere-000000?style=flat&logo=x&logoColor=white" alt="X" /></a>
-&nbsp;
-<a href="https://github.com/skykoderhere"><img src="https://img.shields.io/badge/GitHub-skykoderhere-181717?style=flat&logo=github&logoColor=white" alt="GitHub" /></a>
-&nbsp;
-<a href="https://linkedin.com/in/skykoderhere"><img src="https://img.shields.io/badge/LinkedIn-skykoderhere-0A66C2?style=flat&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
-&nbsp;
-<a href="https://www.instagram.com/skykoderhere"><img src="https://img.shields.io/badge/Instagram-@skykoderhere-E4405F?style=flat&logo=instagram&logoColor=white" alt="Instagram" /></a>
-&nbsp;
-<a href="https://buymeacoffee.com/skykoderhere"><img src="https://img.shields.io/badge/Buy_Me_A_Coffee-skykoderhere-FFDD00?style=flat&logo=buymeacoffee&logoColor=black" alt="Buy Me A Coffee" /></a>
-&nbsp;
-<a href="https://linktr.ee/skykoderhere"><img src="https://img.shields.io/badge/Linktree-skykoderhere-43E660?style=flat&logo=linktree&logoColor=white" alt="Linktree" /></a>
-&nbsp;
-<a href="mailto:skykoderhere@gmail.com"><img src="https://img.shields.io/badge/Gmail-skykoderhere-EA4335?style=flat&logo=gmail&logoColor=white" alt="Gmail" /></a>
-&nbsp;
-<a href="https://skye.is-a.dev"><img src="https://img.shields.io/badge/Portfolio-skye.is--a.dev-00B7FF?style=flat&logo=googlechrome&logoColor=white" alt="Portfolio" /></a>
-&nbsp;
-<a href="https://github.com/pawjects"><img src="https://img.shields.io/badge/Pawjects_Org-Hub-181717?style=flat&logo=github&logoColor=white" alt="Pawjects Org" /></a>
-
+  <p align="center">
+    <a href="https://t.me/skykoderhere"><img src="https://img.shields.io/badge/Telegram-@skykoderhere-26A5E4?style=flat&logo=telegram&logoColor=white" alt="Telegram" /></a>
+    <a href="https://x.com/skykoderhere"><img src="https://img.shields.io/badge/X-@skykoderhere-000000?style=flat&logo=x&logoColor=white" alt="X" /></a>
+    <a href="https://github.com/skykoderhere"><img src="https://img.shields.io/badge/GitHub-skykoderhere-181717?style=flat&logo=github&logoColor=white" alt="GitHub" /></a>
+    <a href="https://linkedin.com/in/skykoderhere"><img src="https://img.shields.io/badge/LinkedIn-skykoderhere-0A66C2?style=flat&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
+    <a href="https://www.instagram.com/skykoderhere"><img src="https://img.shields.io/badge/Instagram-@skykoderhere-E4405F?style=flat&logo=instagram&logoColor=white" alt="Instagram" /></a>
+    <a href="https://buymeacoffee.com/skykoderhere"><img src="https://img.shields.io/badge/Buy_Me_A_Coffee-skykoderhere-FFDD00?style=flat&logo=buymeacoffee&logoColor=black" alt="Buy Me A Coffee" /></a>
+    <a href="https://linktr.ee/skykoderhere"><img src="https://img.shields.io/badge/Linktree-skykoderhere-43E660?style=flat&logo=linktree&logoColor=white" alt="Linktree" /></a>
+    <a href="mailto:skykoderhere@gmail.com"><img src="https://img.shields.io/badge/Gmail-skykoderhere-EA4335?style=flat&logo=gmail&logoColor=white" alt="Gmail" /></a>
+  </p>
 </div>

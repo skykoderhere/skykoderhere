@@ -1325,91 +1325,8 @@
             transform: scale(0.92) !important;
         }
 
-        /* Dedicated Liquid Glass Footer Badges/Links (50% Intensity - Buy Me a Coffee & Linktree) */
-        .footer-links-row {
-            margin-top: 1.6rem;
-            display: flex;
-            gap: 0.85rem;
-            flex-wrap: wrap;
-            justify-content: center;
-            align-items: center;
-        }
-
-        .footer-glass-btn {
-            position: relative;
-            overflow: hidden;
-            display: inline-flex;
-            align-items: center;
-            gap: 0.6rem;
-            padding: 0.62rem 1.35rem;
-            border-radius: 100px;
-            background: linear-gradient(135deg, rgba(255, 255, 255, 0.08) 0%, rgba(255, 255, 255, 0.02) 60%, rgba(255, 255, 255, 0.04) 100%);
-            backdrop-filter: blur(16px) saturate(140%);
-            -webkit-backdrop-filter: blur(16px) saturate(140%);
-            border: 1px solid rgba(255, 255, 255, 0.13);
-            box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), inset 0 -1px 0 rgba(0, 0, 0, 0.35), 0 4px 16px -2px rgba(0, 0, 0, 0.5);
-            color: var(--text-main);
-            font-family: var(--font-mono);
-            font-size: 0.78rem;
-            letter-spacing: -0.01em;
-            text-decoration: none;
-            transition: transform 0.22s var(--ease-out), background 0.22s, border-color 0.22s, box-shadow 0.22s, color 0.22s;
-            user-select: none;
-        }
-
-        .footer-glass-btn::before {
-            content: '';
-            position: absolute;
-            top: 0;
-            left: -120%;
-            width: 70%;
-            height: 100%;
-            background: linear-gradient(90deg, transparent 0%, rgba(255, 255, 255, 0.18) 50%, transparent 100%);
-            transform: skewX(-25deg);
-            transition: left 0.65s cubic-bezier(0.16, 1, 0.3, 1);
-            pointer-events: none;
-        }
-
-        .footer-glass-btn:hover::before {
-            left: 140%;
-        }
-
-        .footer-glass-btn i {
-            color: var(--accent-primary);
-            font-size: 0.88rem;
-            transition: transform 0.22s ease, color 0.22s ease;
-        }
-
-        .footer-btn-badge {
-            color: var(--text-muted);
-            font-size: 0.7rem;
-            opacity: 0.85;
-            transition: color 0.2s ease;
-        }
-
-        .footer-glass-btn:hover {
-            background: linear-gradient(135deg, rgba(0, 183, 255, 0.18) 0%, rgba(255, 255, 255, 0.04) 50%, rgba(255, 255, 255, 0.08) 100%);
-            border-color: rgba(0, 183, 255, 0.45);
-            color: #ffffff;
-            transform: translateY(-2px);
-            box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.35), 0 8px 24px -2px rgba(0, 0, 0, 0.6), 0 0 18px rgba(0, 183, 255, 0.2);
-        }
-
-        .footer-glass-btn:hover i {
-            transform: scale(1.15);
-            color: #ffffff;
-        }
-
-        .footer-glass-btn:hover .footer-btn-badge {
-            color: rgba(255, 255, 255, 0.9);
-        }
-
-        .footer-glass-btn:active {
-            transform: scale(0.96) !important;
-        }
-
         .footer-note {
-            margin-top: 2.4rem;
+            margin-top: 2.8rem;
             padding-top: 1.4rem;
             border-top: 1px solid rgba(255, 255, 255, 0.04);
             width: 100%;
@@ -1504,15 +1421,6 @@
                 width: 42px;
                 height: 42px;
                 font-size: 1rem;
-            }
-            .footer-links-row {
-                flex-direction: column;
-                width: 100%;
-                gap: 0.65rem;
-            }
-            .footer-glass-btn {
-                width: 100%;
-                justify-content: center;
             }
         }
 
@@ -1922,9 +1830,6 @@
                     
                     <!-- Clean Social Media Dock -->
                     <div class="social-dock" aria-label="Social profiles">
-                        <a href="https://t.me/skykoderhere" target="_blank" rel="noopener noreferrer" class="social-icon-btn magnetic" data-strength="15" aria-label="Telegram" title="Telegram">
-                            <i class="fab fa-telegram"></i>
-                        </a>
                         <a href="https://x.com/skykoderhere" target="_blank" rel="noopener noreferrer" class="social-icon-btn magnetic" data-strength="15" aria-label="X (Twitter)" title="X (Twitter)">
                             <i class="fab fa-x-twitter"></i>
                         </a>
@@ -1942,23 +1847,6 @@
                         </a>
                         <a href="https://linktr.ee/skykoderhere" target="_blank" rel="noopener noreferrer" class="social-icon-btn magnetic" data-strength="15" aria-label="Linktree" title="Linktree (@skykoderhere)">
                             <i class="fas fa-link"></i>
-                        </a>
-                        <a href="mailto:skykoderhere@gmail.com" class="social-icon-btn magnetic" data-strength="15" aria-label="Email" title="Email">
-                            <i class="fas fa-envelope"></i>
-                        </a>
-                    </div>
-
-                    <!-- Liquid Glass Support & Link Tree (50% Intensity) -->
-                    <div class="footer-links-row" aria-label="Support and links">
-                        <a href="https://buymeacoffee.com/skykoderhere" target="_blank" rel="noopener noreferrer" class="footer-glass-btn magnetic" data-strength="15" title="Support on Buy Me a Coffee (@skykoderhere)">
-                            <i class="fas fa-mug-hot"></i>
-                            <span>buy me a coffee</span>
-                            <span class="footer-btn-badge">@skykoderhere</span>
-                        </a>
-                        <a href="https://linktr.ee/skykoderhere" target="_blank" rel="noopener noreferrer" class="footer-glass-btn magnetic" data-strength="15" title="All Links on Linktree (@skykoderhere)">
-                            <i class="fas fa-link"></i>
-                            <span>linktree</span>
-                            <span class="footer-btn-badge">@skykoderhere</span>
                         </a>
                     </div>
 
