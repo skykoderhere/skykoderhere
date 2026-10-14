@@ -88,13 +88,19 @@
 
 <div align="center">
   <p align="center">
-    <a href="https://t.me/skykoderhere"><img src="https://img.shields.io/badge/Telegram-@skykoderhere-26A5E4?style=flat&logo=telegram&logoColor=white" alt="Telegram" /></a>
-    <a href="https://x.com/skykoderhere"><img src="https://img.shields.io/badge/X-@skykoderhere-000000?style=flat&logo=x&logoColor=white" alt="X" /></a>
-    <a href="https://github.com/skykoderhere"><img src="https://img.shields.io/badge/GitHub-skykoderhere-181717?style=flat&logo=github&logoColor=white" alt="GitHub" /></a>
-    <a href="https://linkedin.com/in/skykoderhere"><img src="https://img.shields.io/badge/LinkedIn-skykoderhere-0A66C2?style=flat&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
-    <a href="https://www.instagram.com/skykoderhere"><img src="https://img.shields.io/badge/Instagram-@skykoderhere-E4405F?style=flat&logo=instagram&logoColor=white" alt="Instagram" /></a>
-    <a href="https://buymeacoffee.com/skykoderhere"><img src="https://img.shields.io/badge/Buy_Me_A_Coffee-skykoderhere-FFDD00?style=flat&logo=buymeacoffee&logoColor=black" alt="Buy Me A Coffee" /></a>
-    <a href="https://linktr.ee/skykoderhere"><img src="https://img.shields.io/badge/Linktree-skykoderhere-43E660?style=flat&logo=linktree&logoColor=white" alt="Linktree" /></a>
-    <a href="mailto:skykoderhere@gmail.com"><img src="https://img.shields.io/badge/Gmail-skykoderhere-EA4335?style=flat&logo=gmail&logoColor=white" alt="Gmail" /></a>
+    <a href="https://github.com/skykoderhere"><img src="https://img.shields.io/badge/skykoderhere-181717?style=flat&logo=github&logoColor=white" alt="GitHub" /></a>
+    <a href="https://linkedin.com/in/skykoderhere"><img src="https://img.shields.io/badge/skykoderhere-0A66C2?style=flat&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
+    <a href="https://t.me/skykoderhere"><img src="https://img.shields.io/badge/skykoderhere-26A5E4?style=flat&logo=telegram&logoColor=white" alt="Telegram" /></a>
+    <a href="https://www.instagram.com/skykoderhere"><img src="https://img.shields.io/badge/skykoderhere-E4405F?style=flat&logo=instagram&logoColor=white" alt="Instagram" /></a>
+    <a href="https://x.com/skykoderhere"><img src="https://img.shields.io/badge/skykoderhere-000000?style=flat&logo=x&logoColor=white" alt="Twitter / X" /></a>
+    <a href="mailto:skykoderhere@gmail.com"><img src="https://img.shields.io/badge/skykoderhere-EA4335?style=flat&logo=gmail&logoColor=white" alt="Gmail" /></a>
+    <a href="https://linktr.ee/skykoderhere"><img src="https://img.shields.io/badge/skykoderhere-43E660?style=flat&logo=linktree&logoColor=white" alt="Linktree" /></a>
+    <a href="https://buymeacoffee.com/skykoderhere"><img src="https://img.shields.io/badge/skykoderhere-FFDD00?style=flat&logo=buymeacoffee&logoColor=black" alt="Buy Me A Coffee" /></a>
   </p>
 </div>
+
+---
+
+<p align="center">
+  <sub>crafted with clean code & chill vibes • code hard, live slow 🌿</sub>
+</p>
