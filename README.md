@@ -2,10 +2,7 @@
 
 <p align="center">
   <a href="https://github.com/skykoderhere">
-    <img src="assets/avatar.png" width="105" height="105" alt="skye" style="border-radius: 50%; max-width: 100%; vertical-align: middle; margin-right: 12px;" />
-  </a>
-  <a href="https://github.com/skykoderhere">
-    <img src="assets/octocat.gif" width="105" height="105" alt="GitHub Octocat" style="max-width: 100%; vertical-align: middle;" />
+    <img src="assets/avatar.png" width="115" height="115" alt="skye" style="border-radius: 50%; max-width: 100%; display: inline-block; vertical-align: middle;" />
   </a>
 </p>
 
@@ -16,8 +13,6 @@
 <p align="center">
   <a href="https://skye.is-a.dev"><img src="https://img.shields.io/badge/portfolio-skye.is--a.dev-00B7FF?style=flat&logo=googlechrome&logoColor=white" alt="Portfolio" /></a>
   <a href="https://github.com/pawjects"><img src="https://img.shields.io/badge/org-pawjects-181717?style=flat&logo=github&logoColor=white" alt="Pawjects" /></a>
-  <a href="https://github.com/skykoderhere"><img src="https://img.shields.io/github/followers/skykoderhere?style=flat&logo=github&logoColor=white&color=121212" alt="Followers" /></a>
-  <img src="https://komarev.com/ghpvc/?username=skykoderhere&color=00B7FF&style=flat&label=views" alt="Profile Views" />
 </p>
 
 </div>
@@ -33,33 +28,44 @@
 
 ### 🚀 stuff i built
 
-<p>
-  <a href="https://github.com/pawjects/PawGram"><img src="https://img.shields.io/badge/PawGram-Android_Mod-00B7FF?style=flat&logo=android&logoColor=white" alt="PawGram" /></a>
-  <a href="https://github.com/pawjects/PawGram"><img src="https://img.shields.io/badge/source-github-181717?style=flat&logo=github&logoColor=white" alt="Repo" /></a>
-  <br/>
-  <sub>instagram mod with ios emojis, clean typography & material you elements.</sub>
-</p>
-
-<p>
-  <a href="https://github.com/pawjects/PawTube"><img src="https://img.shields.io/badge/PawTube-Media_Player-FF0000?style=flat&logo=youtube&logoColor=white" alt="PawTube" /></a>
-  <a href="https://github.com/pawjects/PawTube"><img src="https://img.shields.io/badge/source-github-181717?style=flat&logo=github&logoColor=white" alt="Repo" /></a>
-  <br/>
-  <sub>lightweight, distraction-free video player for clean streaming.</sub>
-</p>
-
-<p>
-  <a href="https://pawtify-meow.vercel.app"><img src="https://img.shields.io/badge/Pawtify-Live_Web_App-1DB954?style=flat&logo=spotify&logoColor=white" alt="Pawtify" /></a>
-  <a href="https://github.com/pawjects/Pawtify"><img src="https://img.shields.io/badge/source-github-181717?style=flat&logo=github&logoColor=white" alt="Repo" /></a>
-  <br/>
-  <sub>pipedapi-powered web music player with spotify-inspired dark ui.</sub>
-</p>
-
-<p>
-  <a href="https://pawjects.github.io/PawIDE/"><img src="https://img.shields.io/badge/PawIDE-Live_Sandbox-FFA116?style=flat&logo=html5&logoColor=white" alt="PawIDE" /></a>
-  <a href="https://pawjects.github.io/PawIDE/"><img src="https://img.shields.io/badge/source-github-181717?style=flat&logo=github&logoColor=white" alt="Repo" /></a>
-  <br/>
-  <sub>in-browser frontend html/css/js playground and sandbox compiler.</sub>
-</p>
+<table width="100%">
+  <tr>
+    <td width="50%" valign="top">
+      <h4>PawGram</h4>
+      <p>
+        <a href="https://github.com/pawjects/PawGram"><img src="https://img.shields.io/badge/PawGram-Android_Mod-00B7FF?style=flat&logo=android&logoColor=white" alt="PawGram" /></a>
+        <a href="https://github.com/pawjects/PawGram"><img src="https://img.shields.io/badge/source-github-181717?style=flat&logo=github&logoColor=white" alt="Repo" /></a>
+      </p>
+      <sub>Instagram mod with iOS emojis, clean typography & Material You elements.</sub>
+    </td>
+    <td width="50%" valign="top">
+      <h4>PawTube</h4>
+      <p>
+        <a href="https://github.com/pawjects/PawTube"><img src="https://img.shields.io/badge/PawTube-Media_Player-FF0000?style=flat&logo=youtube&logoColor=white" alt="PawTube" /></a>
+        <a href="https://github.com/pawjects/PawTube"><img src="https://img.shields.io/badge/source-github-181717?style=flat&logo=github&logoColor=white" alt="Repo" /></a>
+      </p>
+      <sub>Lightweight, distraction-free video player for clean streaming.</sub>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h4>Pawtify</h4>
+      <p>
+        <a href="https://pawtify-meow.vercel.app"><img src="https://img.shields.io/badge/Pawtify-Live_Web_App-1DB954?style=flat&logo=spotify&logoColor=white" alt="Pawtify" /></a>
+        <a href="https://github.com/pawjects/Pawtify"><img src="https://img.shields.io/badge/source-github-181717?style=flat&logo=github&logoColor=white" alt="Repo" /></a>
+      </p>
+      <sub>PipedAPI-powered web music player with Spotify-inspired dark UI.</sub>
+    </td>
+    <td width="50%" valign="top">
+      <h4>PawIDE</h4>
+      <p>
+        <a href="https://pawjects.github.io/PawIDE/"><img src="https://img.shields.io/badge/PawIDE-Live_Sandbox-FFA116?style=flat&logo=html5&logoColor=white" alt="PawIDE" /></a>
+        <a href="https://pawjects.github.io/PawIDE/"><img src="https://img.shields.io/badge/source-github-181717?style=flat&logo=github&logoColor=white" alt="Repo" /></a>
+      </p>
+      <sub>In-browser frontend HTML/CSS/JS playground and sandbox compiler.</sub>
+    </td>
+  </tr>
+</table>
 
 ---
 
