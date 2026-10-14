@@ -1,0 +1,4 @@
+# GitHub Linguist Configuration
+# Ensure TypeScript is recognized as the dominant codebase language
+*.html linguist-detectable=false
+dist/** linguist-vendored=true
